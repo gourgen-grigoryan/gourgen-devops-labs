@@ -466,6 +466,34 @@ This changes who owns the file.
 
 ---
 
+## Quiz Review
+
+| Question                                            | Correct Answer                                                                 |
+| --------------------------------------------------- | ------------------------------------------------------------------------------ |
+| What does `r` permission mean?                      | `r` means read. It allows reading file content or listing directory contents.  |
+| What does `w` permission mean?                      | `w` means write. It allows modifying a file or changing directory contents.    |
+| What does `x` permission mean?                      | `x` means execute. It allows running a script or entering a directory.         |
+| Which command makes a script executable?            | `chmod 755 scripts/deploy.sh` or `chmod +x scripts/deploy.sh`                  |
+| What permission is commonly used for scripts?       | `755`                                                                          |
+| What permission is correct for secret `.env` files? | `600`                                                                          |
+| What is the difference between `chmod` and `chown`? | `chmod` changes permissions, while `chown` changes owner and group.            |
+| What does `644` mean?                               | Owner can read/write, group can read, others can read.                         |
+| What does `755` mean?                               | Owner can read/write/execute, group can read/execute, others can read/execute. |
+| Why should `chmod 777` usually be avoided?          | It gives everyone read, write and execute access, which is unsafe.             |
+
+---
+
+## Permission Quick Reference
+
+| Permission | Symbol Form  | Meaning                                | Common Use                           |
+| ---------- | ------------ | -------------------------------------- | ------------------------------------ |
+| `600`      | `-rw-------` | Only owner can read/write              | Secrets, `.env`, private keys        |
+| `644`      | `-rw-r--r--` | Owner can read/write, others can read  | Config files, normal files           |
+| `755`      | `-rwxr-xr-x` | Owner full access, others read/execute | Scripts, directories                 |
+| `777`      | `-rwxrwxrwx` | Everyone has full access               | Usually unsafe and should be avoided |
+
+---
+
 ## Validation
 
 Commands used to validate this lab:
@@ -572,4 +600,3 @@ These skills are essential for DevOps because permission issues are common when 
 ## Status
 
 Lesson completed, committed and pushed to GitHub.
-
