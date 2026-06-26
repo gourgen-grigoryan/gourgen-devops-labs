@@ -42,14 +42,15 @@ Each topic includes:
 - `02-networking-ccna-foundations` — networking fundamentals with CCNA-level foundations
 - `03-git-github` — Git and GitHub workflows
 - `04-bash-scripting` — automation with Bash
-- `05-nginx-systemd` — web server, reverse proxy and Linux services
-- `06-docker` — containers and Docker workflows
-- `07-github-actions-cicd` — CI/CD pipelines
-- `08-cloud` — cloud infrastructure
-- `09-terraform` — Infrastructure as Code
-- `10-monitoring-security` — monitoring, logging and security
-- `11-kubernetes` — Kubernetes fundamentals
-- `12-portfolio` — professional DevOps portfolio
+- `05-database-fundamentals` — SQL, PostgreSQL, backups, restore, migrations and database operations for DevOps
+- `06-nginx-systemd` — web server, reverse proxy and Linux services
+- `07-docker` — containers and Docker workflows
+- `08-github-actions-cicd` — CI/CD pipelines
+- `09-cloud` — cloud infrastructure
+- `10-terraform` — Infrastructure as Code
+- `11-monitoring-security` — monitoring, logging and security
+- `12-kubernetes` — Kubernetes fundamentals
+- `13-portfolio` — professional DevOps portfolio
 
 ## Security rule
 

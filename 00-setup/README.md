@@ -31,14 +31,15 @@ Prepare my local DevOps learning environment using Windows + WSL2 Ubuntu.
 3. Networking with CCNA-level foundations
 4. Git and GitHub
 5. Bash scripting
-6. Nginx and systemd
-7. Docker
-8. GitHub Actions CI/CD
-9. Cloud
-10. Terraform
-11. Monitoring and Security
-12. Kubernetes
-13. Professional Portfolio
+6. Database fundamentals for DevOps
+7. Nginx and systemd
+8. Docker
+9. GitHub Actions CI/CD
+10. Cloud
+11. Terraform
+12. Monitoring and Security
+13. Kubernetes
+14. Professional Portfolio
 
 ## Security note
 
