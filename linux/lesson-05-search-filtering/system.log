@@ -1,0 +1,10 @@
+INFO Server started successfully
+INFO Loading configuration file
+WARNING Disk usage is above 70%
+ERROR Failed to connect to database
+INFO Retrying connection
+ERROR Database connection timeout
+INFO User login successful
+WARNING Memory usage is high
+ERROR Payment service unavailable
+INFO Server health check passed
