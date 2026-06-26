@@ -1,0 +1,7 @@
+2026-06-26 10:00:01 INFO Application starting
+2026-06-26 10:00:02 INFO Loading configuration
+2026-06-26 10:00:03 INFO Connecting to database
+2026-06-26 10:00:04 WARN Database connection is slow
+2026-06-26 10:00:05 INFO Server listening on port 3000
+2026-06-26 10:00:06 ERROR Failed to send email notification
+2026-06-26 10:00:07 INFO Request completed
