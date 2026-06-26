@@ -272,6 +272,81 @@ tree -a --charset=ascii
 
 ---
 
+## Quiz Review
+
+### 1. Why is `cat` not the best option for large log files?
+
+`cat` prints the entire file directly into the terminal.
+
+For large log files, this can flood the terminal with too much output and make troubleshooting harder.
+
+Better options for large log files are:
+
+```bash
+less logs/app.log
+head -n 20 logs/app.log
+tail -n 50 logs/app.log
+```
+
+---
+
+### 2. What does `tail -n 3` do?
+
+The command:
+
+```bash
+tail -n 3 logs/app.log
+```
+
+shows the last 3 lines of the file.
+
+This is useful when I want to quickly check the most recent log entries.
+
+---
+
+### 3. What is `tail -f` used for?
+
+The command:
+
+```bash
+tail -f logs/app.log
+```
+
+follows a log file live.
+
+If new lines are added to the file, they appear in the terminal immediately.
+
+To stop `tail -f`, I use:
+
+```text
+Ctrl + C
+```
+
+---
+
+### 4. How do I exit from `less`?
+
+To exit from `less`, I press:
+
+```text
+q
+```
+
+---
+
+### Quiz Result
+
+```text
+cat and large logs: Passed
+tail -n usage: Passed
+tail -f usage: Passed
+less exit key: Passed
+```
+
+Lesson quiz passed successfully.
+
+---
+
 ## Git Workflow
 
 After completing the lab, I saved the work using Git:
@@ -281,6 +356,16 @@ cd ~/devops-labs
 git status
 git add .
 git commit -m "Add Linux log reading notes"
+git push
+```
+
+After improving the lesson documentation, I saved the updated notes using Git:
+
+```bash
+cd ~/devops-labs
+git status
+git add 01-linux-basics/lesson-04-log-reading/notes.md
+git commit -m "Add log reading quiz review"
 git push
 ```
 
@@ -298,4 +383,4 @@ I also learned that `tail`, `tail -f`, `less`, `head` and `wc -l` are important 
 
 ## Status
 
-Lesson completed, committed and pushed to GitHub.
+Lesson completed, quiz passed, committed and pushed to GitHub.
