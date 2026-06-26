@@ -1,0 +1,20 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" rx="28" fill="#0D1117"/>
+  <circle cx="1080" cy="70" r="120" fill="#1F6FEB" opacity="0.22"/>
+  <circle cx="120" cy="260" r="140" fill="#2EA043" opacity="0.16"/>
+  <rect x="60" y="55" width="520" height="210" rx="18" fill="#161B22" stroke="#30363D"/>
+  <circle cx="95" cy="86" r="7" fill="#FF5F56"/>
+  <circle cx="120" cy="86" r="7" fill="#FFBD2E"/>
+  <circle cx="145" cy="86" r="7" fill="#27C93F"/>
+  <text x="90" y="135" fill="#58A6FF" font-family="Consolas, monospace" font-size="24">$ whoami</text>
+  <text x="90" y="172" fill="#C9D1D9" font-family="Consolas, monospace" font-size="24">gourgen-devops-engineer</text>
+  <text x="90" y="215" fill="#58A6FF" font-family="Consolas, monospace" font-size="24">$ roadmap --status</text>
+  <text x="90" y="250" fill="#3FB950" font-family="Consolas, monospace" font-size="24">learning in progress</text>
+  <text x="630" y="115" fill="#F0F6FC" font-family="Arial, sans-serif" font-size="44" font-weight="700">Gourgen DevOps Labs</text>
+  <text x="633" y="160" fill="#8B949E" font-family="Arial, sans-serif" font-size="22">Linux • Networking • Git • Bash • Databases • Docker • CI/CD • Cloud</text>
+  <text x="633" y="205" fill="#C9D1D9" font-family="Arial, sans-serif" font-size="24">Step-by-step hands-on DevOps learning portfolio</text>
+  <rect x="635" y="230" width="165" height="38" rx="19" fill="#238636"/>
+  <text x="663" y="256" fill="white" font-family="Arial, sans-serif" font-size="17" font-weight="700">Portfolio Ready</text>
+  <rect x="820" y="230" width="140" height="38" rx="19" fill="#1F6FEB"/>
+  <text x="850" y="256" fill="white" font-family="Arial, sans-serif" font-size="17" font-weight="700">Hands-on</text>
+</svg>
