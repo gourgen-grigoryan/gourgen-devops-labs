@@ -11,8 +11,8 @@
   <text x="90" y="215" fill="#58A6FF" font-family="Consolas, monospace" font-size="24">$ roadmap --status</text>
   <text x="90" y="250" fill="#3FB950" font-family="Consolas, monospace" font-size="24">learning in progress</text>
   <text x="630" y="115" fill="#F0F6FC" font-family="Arial, sans-serif" font-size="44" font-weight="700">Gourgen DevOps Labs</text>
-  <text x="633" y="160" fill="#8B949E" font-family="Arial, sans-serif" font-size="22">Linux • Networking • Git • Bash • Databases • Docker • CI/CD • Cloud</text>
-  <text x="633" y="205" fill="#C9D1D9" font-family="Arial, sans-serif" font-size="24">Step-by-step hands-on DevOps learning portfolio</text>
+  <text x="633" y="160" fill="#8B949E" font-family="Arial, sans-serif" font-size="22">Aspiring DevOps Engineer | Linux • Cloud • CI/CD</text>
+  <text x="633" y="205" fill="#C9D1D9" font-family="Arial, sans-serif" font-size="24">Hands-on DevOps learning portfolio</text>
   <rect x="635" y="230" width="165" height="38" rx="19" fill="#238636"/>
   <text x="663" y="256" fill="white" font-family="Arial, sans-serif" font-size="17" font-weight="700">Portfolio Ready</text>
   <rect x="820" y="230" width="140" height="38" rx="19" fill="#1F6FEB"/>
