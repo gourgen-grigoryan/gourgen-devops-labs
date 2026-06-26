@@ -542,23 +542,6 @@ This searches for files.
 
 ---
 
-## Quiz Review
-
-| Question                                                     | Correct Answer                                                               |
-| ------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| What is the difference between `grep` and `find`?            | `grep` searches text inside files, `find` searches for files and directories |
-| What is `wc -l` used for?                                    | It counts lines                                                              |
-| What does pipe `\|` do?                                      | It sends output from one command to another                                  |
-| How do I find all `.log` files?                              | `find . -name "*.log"`                                                       |
-| How do I count how many `ERROR` lines exist in `system.log`? | `grep "ERROR" system.log \| wc -l`                                           |
-| Why can `grep "active" users.txt` give a wrong result?       | Because it also matches `inactive`                                           |
-| What does `grep -n` mean?                                    | It shows matching line numbers                                               |
-| What does `grep -i` mean?                                    | It ignores uppercase and lowercase differences                               |
-| What does `find . -type f` mean?                             | It finds all files                                                           |
-| How do I find `ERROR` or `WARNING` lines?                    | `grep -E "ERROR\|WARNING" system.log`                                        |
-
----
-
 ## Validation
 
 Commands used to validate this lab:
@@ -591,6 +574,30 @@ Expected result:
 * `find . -type f` shows the lesson files
 * `grep " active$" users.txt` returns only active users
 * `grep -E "ERROR|WARNING" system.log` shows both warning and error lines
+
+---
+
+## Quiz Review
+
+| Question | Correct Answer | Status |
+| --- | --- | --- |
+| What is `grep` used for? | `grep` searches for text inside files. | Passed |
+| What does `grep -i` do? | It searches without caring about uppercase or lowercase letters. | Passed |
+| What does `grep -n` do? | It shows matching line numbers. | Passed |
+| What does `grep -r` do? | It searches recursively inside directories. | Passed |
+| What is `find` used for? | `find` searches for files and directories. | Passed |
+| What does `find . -name "*.log"` do? | It finds `.log` files from the current directory downward. | Passed |
+| What does `wc -l` do? | It counts lines. | Passed |
+| What does pipe `|` do? | It sends output from one command to another command. | Passed |
+| How do I count `ERROR` lines in a log? | `grep "ERROR" system.log | wc -l`. | Passed |
+
+### Quiz Result
+
+```text
+Lesson quiz: Passed
+```
+
+Lesson quiz passed successfully.
 
 ---
 
@@ -653,4 +660,4 @@ These commands are essential for real DevOps work because logs, configuration fi
 
 ## Status
 
-Lesson completed, committed and pushed to GitHub.
+Lesson completed, quiz passed, committed and pushed to GitHub.

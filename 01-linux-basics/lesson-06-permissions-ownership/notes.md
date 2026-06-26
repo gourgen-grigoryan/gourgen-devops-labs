@@ -466,23 +466,6 @@ This changes who owns the file.
 
 ---
 
-## Quiz Review
-
-| Question                                            | Correct Answer                                                                 |
-| --------------------------------------------------- | ------------------------------------------------------------------------------ |
-| What does `r` permission mean?                      | `r` means read. It allows reading file content or listing directory contents.  |
-| What does `w` permission mean?                      | `w` means write. It allows modifying a file or changing directory contents.    |
-| What does `x` permission mean?                      | `x` means execute. It allows running a script or entering a directory.         |
-| Which command makes a script executable?            | `chmod 755 scripts/deploy.sh` or `chmod +x scripts/deploy.sh`                  |
-| What permission is commonly used for scripts?       | `755`                                                                          |
-| What permission is correct for secret `.env` files? | `600`                                                                          |
-| What is the difference between `chmod` and `chown`? | `chmod` changes permissions, while `chown` changes owner and group.            |
-| What does `644` mean?                               | Owner can read/write, group can read, others can read.                         |
-| What does `755` mean?                               | Owner can read/write/execute, group can read/execute, others can read/execute. |
-| Why should `chmod 777` usually be avoided?          | It gives everyone read, write and execute access, which is unsafe.             |
-
----
-
 ## Permission Quick Reference
 
 | Permission | Symbol Form  | Meaning                                | Common Use                           |
@@ -522,6 +505,30 @@ Expected result:
 * `secrets/.env` has `600` permissions
 * `./scripts/deploy.sh` runs successfully
 * `stat` shows expected permission values
+
+---
+
+## Quiz Review
+
+| Question | Correct Answer | Status |
+| --- | --- | --- |
+| What does `r` permission mean? | `r` means read permission. | Passed |
+| What does `w` permission mean? | `w` means write permission. | Passed |
+| What does `x` permission mean? | `x` means execute permission. | Passed |
+| What command changes permissions? | `chmod` changes file or directory permissions. | Passed |
+| What command changes ownership? | `chown` changes file owner and group. | Passed |
+| What permission is commonly used for scripts? | `755` is commonly used for executable scripts. | Passed |
+| What permission is correct for secret `.env` files? | `600` is safer for secret files. | Passed |
+| What does `644` mean? | Owner can read/write, group and others can read. | Passed |
+| Why should `chmod 777` usually be avoided? | It gives everyone read, write and execute access, which is unsafe. | Passed |
+
+### Quiz Result
+
+```text
+Lesson quiz: Passed
+```
+
+Lesson quiz passed successfully.
 
 ---
 
@@ -599,4 +606,4 @@ These skills are essential for DevOps because permission issues are common when 
 
 ## Status
 
-Lesson completed, committed and pushed to GitHub.
+Lesson completed, quiz passed, committed and pushed to GitHub.

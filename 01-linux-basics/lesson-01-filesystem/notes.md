@@ -167,6 +167,28 @@ Expected result:
 
 ---
 
+## Quiz Review
+
+| Question | Correct Answer | Status |
+| --- | --- | --- |
+| What does `/` mean in Linux? | `/` is the root of the Linux file system. | Passed |
+| What is `/home/phantom`? | It is my Linux user home directory. | Passed |
+| What does `~` mean? | `~` is a shortcut for `/home/phantom`. | Passed |
+| What is `/mnt/c` used for in WSL? | It gives access to the Windows C drive from inside Linux. | Passed |
+| Where are configuration files usually stored? | Configuration files are commonly stored under `/etc`. | Passed |
+| Where are log files usually stored? | Log files are commonly stored under `/var/log`. | Passed |
+| Where should I keep DevOps projects in WSL? | Inside the Linux file system, for example `~/devops-labs`. | Passed |
+
+### Quiz Result
+
+```text
+Lesson quiz: Passed
+```
+
+Lesson quiz passed successfully.
+
+---
+
 ## What I Learned
 
 In this lesson, I learned that Linux uses one main file system tree starting from `/`.
@@ -179,4 +201,4 @@ For DevOps work, I should always know where I am in the file system before creat
 
 ## Status
 
-Lesson completed and documented.
+Lesson completed, quiz passed, committed and pushed to GitHub.

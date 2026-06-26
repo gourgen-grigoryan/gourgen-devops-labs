@@ -250,116 +250,21 @@ Expected result:
 
 ## Quiz Review
 
-### 1. What does `touch` do?
-
-The `touch` command creates an empty file.
-
-Example:
-
-```bash
-touch app.log
-```
-
-This creates a file named `app.log` if it does not already exist.
-
----
-
-### 2. What does `mkdir -p` do?
-
-The command `mkdir -p` creates a directory and also creates parent directories if they do not already exist.
-
-Example:
-
-```bash
-mkdir -p backups/2026/june
-```
-
-This is useful when creating nested directory structures.
-
----
-
-### 3. What is the difference between `cp` and `mv`?
-
-`cp` copies a file or directory.
-
-The original file stays in its original location.
-
-```bash
-cp logs/app.log backups/app-backup.log
-```
-
-`mv` moves or renames a file or directory.
-
-The original file no longer remains under the old path or old name.
-
-```bash
-mv configs/app.conf configs/application.conf
-```
-
----
-
-### 4. What is the difference between `>` and `>>`?
-
-The `>` operator writes text to a file and overwrites existing content.
-
-```bash
-echo "Line 1" > notes.txt
-```
-
-The `>>` operator appends text to the end of a file without removing existing content.
-
-```bash
-echo "Line 2" >> notes.txt
-```
-
-This is important because using `>` by mistake can delete previous file content.
-
----
-
-### 5. Why should delete commands be used carefully?
-
-Delete commands such as `rm`, `rm -r` and especially `rm -rf` can permanently remove files or directories.
-
-Before running delete commands, I should always check my current location:
-
-```bash
-pwd
-```
-
-Then inspect the files or folders:
-
-```bash
-ls
-tree -a --charset=ascii
-```
-
-This helps prevent deleting the wrong files or directories.
-
----
-
-### 6. Why is `rm -rf` dangerous?
-
-The command:
-
-```bash
-rm -rf folder
-```
-
-removes a directory and all of its contents without asking for confirmation.
-
-It is dangerous because running it in the wrong location can delete important project files, configuration files or production data.
-
----
+| Question | Correct Answer | Status |
+| --- | --- | --- |
+| What does `touch` do? | It creates an empty file. | Passed |
+| What does `mkdir` do? | It creates a directory. | Passed |
+| What does `mkdir -p` do? | It creates parent directories if needed. | Passed |
+| What is the difference between `cp` and `mv`? | `cp` copies files, while `mv` moves or renames them. | Passed |
+| What is the difference between `>` and `>>`? | `>` overwrites file content, while `>>` appends to the file. | Passed |
+| What does `rmdir` remove? | It removes empty directories only. | Passed |
+| Why is `rm -rf` dangerous? | It can delete directories and their contents without confirmation. | Passed |
+| What should I check before delete commands? | I should check `pwd`, `ls` and `tree` before deleting files. | Passed |
 
 ### Quiz Result
 
 ```text
-touch usage: Passed
-mkdir -p usage: Passed
-cp vs mv: Passed
-> vs >>: Passed
-delete safety: Passed
-rm -rf danger: Passed
+Lesson quiz: Passed
 ```
 
 Lesson quiz passed successfully.
@@ -402,4 +307,4 @@ This is an important DevOps habit because many production mistakes happen when c
 
 ## Status
 
-Lesson completed, committed and pushed to GitHub.
+Lesson completed, quiz passed, committed and pushed to GitHub.

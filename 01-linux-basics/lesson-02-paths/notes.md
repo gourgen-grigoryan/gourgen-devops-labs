@@ -216,6 +216,28 @@ Expected result:
 
 ---
 
+## Quiz Review
+
+| Question | Correct Answer | Status |
+| --- | --- | --- |
+| What is an absolute path? | A full path that starts from `/`. | Passed |
+| What is a relative path? | A path that starts from the current directory. | Passed |
+| What does `.` mean? | `.` means the current directory. | Passed |
+| What does `..` mean? | `..` means the parent directory. | Passed |
+| What does `~` mean? | `~` means my home directory, `/home/phantom`. | Passed |
+| Why should I run `pwd` before important commands? | To confirm my current location and avoid working in the wrong directory. | Passed |
+| Why do paths matter in DevOps? | Many commands create, edit, move or delete files based on the current path. | Passed |
+
+### Quiz Result
+
+```text
+Lesson quiz: Passed
+```
+
+Lesson quiz passed successfully.
+
+---
+
 ## What I Learned
 
 In this lesson, I learned that Linux paths are extremely important for safe command-line work.
@@ -228,4 +250,4 @@ I also learned that `.`, `..` and `~` are important shortcuts that make navigati
 
 ## Status
 
-Lesson completed and documented.
+Lesson completed, quiz passed, committed and pushed to GitHub.
