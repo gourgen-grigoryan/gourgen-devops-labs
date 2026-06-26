@@ -248,6 +248,124 @@ Expected result:
 
 ---
 
+## Quiz Review
+
+### 1. What does `touch` do?
+
+The `touch` command creates an empty file.
+
+Example:
+
+```bash
+touch app.log
+```
+
+This creates a file named `app.log` if it does not already exist.
+
+---
+
+### 2. What does `mkdir -p` do?
+
+The command `mkdir -p` creates a directory and also creates parent directories if they do not already exist.
+
+Example:
+
+```bash
+mkdir -p backups/2026/june
+```
+
+This is useful when creating nested directory structures.
+
+---
+
+### 3. What is the difference between `cp` and `mv`?
+
+`cp` copies a file or directory.
+
+The original file stays in its original location.
+
+```bash
+cp logs/app.log backups/app-backup.log
+```
+
+`mv` moves or renames a file or directory.
+
+The original file no longer remains under the old path or old name.
+
+```bash
+mv configs/app.conf configs/application.conf
+```
+
+---
+
+### 4. What is the difference between `>` and `>>`?
+
+The `>` operator writes text to a file and overwrites existing content.
+
+```bash
+echo "Line 1" > notes.txt
+```
+
+The `>>` operator appends text to the end of a file without removing existing content.
+
+```bash
+echo "Line 2" >> notes.txt
+```
+
+This is important because using `>` by mistake can delete previous file content.
+
+---
+
+### 5. Why should delete commands be used carefully?
+
+Delete commands such as `rm`, `rm -r` and especially `rm -rf` can permanently remove files or directories.
+
+Before running delete commands, I should always check my current location:
+
+```bash
+pwd
+```
+
+Then inspect the files or folders:
+
+```bash
+ls
+tree -a --charset=ascii
+```
+
+This helps prevent deleting the wrong files or directories.
+
+---
+
+### 6. Why is `rm -rf` dangerous?
+
+The command:
+
+```bash
+rm -rf folder
+```
+
+removes a directory and all of its contents without asking for confirmation.
+
+It is dangerous because running it in the wrong location can delete important project files, configuration files or production data.
+
+---
+
+### Quiz Result
+
+```text
+touch usage: Passed
+mkdir -p usage: Passed
+cp vs mv: Passed
+> vs >>: Passed
+delete safety: Passed
+rm -rf danger: Passed
+```
+
+Lesson quiz passed successfully.
+
+---
+
 ## Git Workflow
 
 After completing the lab, I saved the work using Git:
@@ -257,6 +375,16 @@ cd ~/devops-labs
 git status
 git add .
 git commit -m "Add Linux file operations notes"
+git push
+```
+
+After improving the lesson documentation, I saved the updated notes using Git:
+
+```bash
+cd ~/devops-labs
+git status
+git add 01-linux-basics/lesson-03-file-operations/notes.md
+git commit -m "Add file operations quiz review"
 git push
 ```
 
