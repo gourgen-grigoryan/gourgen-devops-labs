@@ -383,4 +383,4 @@ I also learned that `tail`, `tail -f`, `less`, `head` and `wc -l` are important 
 
 ## Status
 
-Lesson completed, quiz passed, committed and pushed to GitHub.
+Lesson completed, committed and pushed to GitHub.
