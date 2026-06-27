@@ -1,0 +1,2 @@
+phantom
+uid=1000(phantom) gid=1000(phantom) groups=1000(phantom),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
