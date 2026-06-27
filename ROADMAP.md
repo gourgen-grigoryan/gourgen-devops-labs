@@ -1,24 +1,93 @@
 # Gourgen DevOps Professional Roadmap
 
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Focus](https://img.shields.io/badge/focus-DevOps-blue)
+![Level](https://img.shields.io/badge/level-zero%20to%20professional-lightgrey)
+![Portfolio](https://img.shields.io/badge/portfolio-ready-success)
+![Documentation](https://img.shields.io/badge/docs-English%20%2B%20Armenian-blueviolet)
+
+A structured, hands-on DevOps learning roadmap focused on Linux, networking, automation, cloud, CI/CD, infrastructure, monitoring, security and portfolio-ready projects.
+
+---
+
 ## Current Status
 
-```text
-Current phase: 01 — Linux Fundamentals
-Current lesson: Lesson 08 — Processes and System Monitoring
-Documentation style:
-  notes.md    = English portfolio version
-  notes.hy.md = Armenian learning version
-Future docs site:
-  MkDocs Material or Docusaurus with real English | Հայերեն tabs
-```
+| Item                      | Value                                                          |
+| ------------------------- | -------------------------------------------------------------- |
+| Current Phase             | 01 — Linux Fundamentals                                        |
+| Current Lesson            | Lesson 08 — Processes and System Monitoring                    |
+| Current Lesson Status     | In Progress                                                    |
+| Main Repository Style     | Portfolio-ready DevOps learning repository                     |
+| English Notes             | `notes.md`                                                     |
+| Armenian Notes            | `notes.hy.md`                                                  |
+| Roadmap Source of Truth   | `ROADMAP.md`                                                   |
+| Future Documentation Site | MkDocs Material or Docusaurus with real English / Հայերեն tabs |
+
+---
+
+## Status Legend
+
+| Status      | Meaning                                                      |
+| ----------- | ------------------------------------------------------------ |
+| Completed   | Lesson finished, quiz passed, committed and pushed to GitHub |
+| In Progress | Currently being studied, documented or validated             |
+| Planned     | Planned for a later roadmap stage                            |
+
+---
+
+## Roadmap Overview
+
+| Phase | Topic                                  | Status      |
+| ----- | -------------------------------------- | ----------- |
+| 00    | Setup and Local DevOps Workspace       | Completed   |
+| 01    | Linux Fundamentals                     | In Progress |
+| 02    | Networking with CCNA-Level Foundations | Planned     |
+| 03    | Git and GitHub Workflows               | Planned     |
+| 04    | Bash Scripting                         | Planned     |
+| 05    | Database Fundamentals for DevOps       | Planned     |
+| 06    | Nginx and systemd                      | Planned     |
+| 07    | Docker                                 | Planned     |
+| 08    | GitHub Actions CI/CD                   | Planned     |
+| 09    | Cloud Infrastructure                   | Planned     |
+| 10    | Terraform                              | Planned     |
+| 11    | Monitoring, Logging and Security       | Planned     |
+| 12    | Kubernetes                             | Planned     |
+| 13    | Professional Portfolio                 | Planned     |
+
+---
+
+## Table of Contents
+
+* [Phase 00 — Setup and Local DevOps Workspace](#phase-00--setup-and-local-devops-workspace)
+* [Phase 01 — Linux Fundamentals](#phase-01--linux-fundamentals)
+* [Phase 02 — Networking with CCNA-Level Foundations](#phase-02--networking-with-ccna-level-foundations)
+* [Phase 03 — Git and GitHub Workflows](#phase-03--git-and-github-workflows)
+* [Phase 04 — Bash Scripting](#phase-04--bash-scripting)
+* [Phase 05 — Database Fundamentals for DevOps](#phase-05--database-fundamentals-for-devops)
+* [Phase 06 — Nginx and systemd](#phase-06--nginx-and-systemd)
+* [Phase 07 — Docker](#phase-07--docker)
+* [Phase 08 — GitHub Actions CI/CD](#phase-08--github-actions-cicd)
+* [Phase 09 — Cloud Infrastructure](#phase-09--cloud-infrastructure)
+* [Phase 10 — Terraform](#phase-10--terraform)
+* [Phase 11 — Monitoring, Logging and Security](#phase-11--monitoring-logging-and-security)
+* [Phase 12 — Kubernetes](#phase-12--kubernetes)
+* [Phase 13 — Professional Portfolio](#phase-13--professional-portfolio)
+* [Final Portfolio Projects](#final-portfolio-projects)
+* [Documentation Rules](#documentation-rules)
+* [Git Workflow Rule](#git-workflow-rule)
+* [Current Progress Summary](#current-progress-summary)
 
 ---
 
 # Phase 00 — Setup and Local DevOps Workspace
 
+![Status](https://img.shields.io/badge/phase-completed-brightgreen)
+
 ## Lesson 00.01 — Local Workspace Setup
 
-Topics:
+**Status:** Completed
+
+**Topics:**
 
 * Windows + WSL2 Ubuntu
 * Linux user environment
@@ -29,19 +98,17 @@ Topics:
 * Repository initialization
 * First commit and push
 
-Status:
-
-```text
-Completed
-```
-
 ---
 
 # Phase 01 — Linux Fundamentals
 
+![Status](https://img.shields.io/badge/phase-in%20progress-yellow)
+
 ## Lesson 01 — Linux File System
 
-Topics:
+**Status:** Completed
+
+**Topics:**
 
 * `/`
 * `/home`
@@ -52,15 +119,13 @@ Topics:
 * `/tmp`
 * WSL file system rules
 
-Status:
-
-```text
-Completed
-```
+---
 
 ## Lesson 02 — Linux Paths
 
-Topics:
+**Status:** Completed
+
+**Topics:**
 
 * absolute paths
 * relative paths
@@ -70,15 +135,13 @@ Topics:
 * `pwd`
 * safe navigation habits
 
-Status:
-
-```text
-Completed
-```
+---
 
 ## Lesson 03 — File Operations
 
-Topics:
+**Status:** Completed
+
+**Topics:**
 
 * `touch`
 * `mkdir`
@@ -93,15 +156,13 @@ Topics:
 * `>>`
 * delete safety
 
-Status:
-
-```text
-Completed
-```
+---
 
 ## Lesson 04 — Log Reading Basics
 
-Topics:
+**Status:** Completed
+
+**Topics:**
 
 * `cat`
 * `less`
@@ -112,15 +173,13 @@ Topics:
 * searching inside `less`
 * reading small and large logs safely
 
-Status:
-
-```text
-Completed
-```
+---
 
 ## Lesson 05 — Search and Filtering
 
-Topics:
+**Status:** Completed
+
+**Topics:**
 
 * `grep`
 * `grep -i`
@@ -133,15 +192,13 @@ Topics:
 * pipes `|`
 * filtering logs and files
 
-Status:
-
-```text
-Completed
-```
+---
 
 ## Lesson 06 — Permissions and Ownership
 
-Topics:
+**Status:** Completed
+
+**Topics:**
 
 * `r`, `w`, `x`
 * owner, group, others
@@ -154,15 +211,13 @@ Topics:
 * secret file permissions
 * permission troubleshooting
 
-Status:
-
-```text
-Completed
-```
+---
 
 ## Lesson 07 — Users, Groups and sudo
 
-Topics:
+**Status:** Completed
+
+**Topics:**
 
 * `whoami`
 * `id`
@@ -175,15 +230,13 @@ Topics:
 * `getent group`
 * least privilege
 
-Status:
-
-```text
-Completed
-```
+---
 
 ## Lesson 08 — Processes and System Monitoring
 
-Topics:
+**Status:** In Progress
+
+**Topics:**
 
 * process
 * PID
@@ -198,15 +251,13 @@ Topics:
 * `du -sh`
 * CPU/RAM/disk basics
 
-Status:
-
-```text
-In Progress
-```
+---
 
 ## Lesson 09 — Package Management
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `apt update`
 * `apt upgrade`
@@ -218,15 +269,13 @@ Topics:
 * checking installed packages
 * safe update habits
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 10 — Linux Services Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `systemctl`
 * service status
@@ -238,15 +287,13 @@ Topics:
 * service troubleshooting
 * `journalctl`
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 11 — Environment Variables
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * environment variables
 * `$PATH`
@@ -257,15 +304,13 @@ Topics:
 * `.profile`
 * safe secret handling
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 12 — Linux Review Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * full Linux fundamentals review
 * file system
@@ -281,19 +326,17 @@ Topics:
 * final quiz
 * portfolio cleanup
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 02 — Networking with CCNA-Level Foundations
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Networking Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * what a network is
 * LAN
@@ -304,15 +347,13 @@ Topics:
 * DNS
 * ports
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — IP Addressing
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * IPv4
 * private IP
@@ -322,15 +363,13 @@ Topics:
 * default gateway
 * loopback address
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — DNS Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * domain names
 * DNS records
@@ -341,15 +380,13 @@ Topics:
 * `nslookup`
 * `dig`
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Ports and Protocols
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * TCP
 * UDP
@@ -360,15 +397,13 @@ Topics:
 * common ports
 * checking listening ports
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Network Troubleshooting
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `ping`
 * `curl`
@@ -379,15 +414,13 @@ Topics:
 * `ip addr`
 * `ip route`
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — Firewalls and Basic Rules
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * firewall concept
 * inbound traffic
@@ -397,15 +430,13 @@ Topics:
 * deny rules
 * port security
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 07 — Networking Review Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * DNS troubleshooting
 * port checks
@@ -414,19 +445,17 @@ Topics:
 * firewall basics
 * network debugging workflow
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 03 — Git and GitHub Workflows
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Git Fundamentals
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * repository
 * working tree
@@ -437,15 +466,13 @@ Topics:
 * `git commit`
 * `git log`
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — Branches
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * branches
 * `git branch`
@@ -454,15 +481,13 @@ Topics:
 * merge basics
 * branch naming
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Remote Repositories
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * origin
 * remote URL
@@ -471,15 +496,13 @@ Topics:
 * `git fetch`
 * upstream branch
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Pull Requests
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * PR workflow
 * code review
@@ -487,15 +510,13 @@ Topics:
 * squash merge
 * GitHub UI basics
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Git Troubleshooting
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * undo changes
 * restore files
@@ -503,15 +524,13 @@ Topics:
 * merge conflicts
 * safe recovery
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — Professional Git Workflow Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * feature branch
 * clean commits
@@ -520,19 +539,17 @@ Topics:
 * merge
 * GitHub portfolio workflow
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 04 — Bash Scripting
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Bash Script Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * shebang
 * executable scripts
@@ -541,15 +558,13 @@ Topics:
 * comments
 * script structure
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — Arguments and Input
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `$1`
 * `$2`
@@ -557,15 +572,13 @@ Topics:
 * `read`
 * input validation
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Conditions
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `if`
 * `else`
@@ -575,15 +588,13 @@ Topics:
 * string checks
 * numeric checks
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Loops
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `for`
 * `while`
@@ -591,30 +602,26 @@ Topics:
 * loop over command output
 * safe loops
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Functions
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * function syntax
 * reusable logic
 * return codes
 * script organization
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — Bash Automation Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * log checker script
 * backup script
@@ -622,19 +629,17 @@ Topics:
 * service status checker
 * portfolio-ready automation scripts
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 05 — Database Fundamentals for DevOps
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — SQL Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * database
 * table
@@ -645,15 +650,13 @@ Topics:
 * UPDATE
 * DELETE
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — PostgreSQL Setup
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * install PostgreSQL
 * users
@@ -662,30 +665,26 @@ Topics:
 * `psql`
 * connection basics
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Database Permissions
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * database users
 * grants
 * privileges
 * least privilege for databases
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Backup and Restore
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `pg_dump`
 * restore
@@ -693,30 +692,26 @@ Topics:
 * backup validation
 * safe restore workflow
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Migrations Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * schema changes
 * migration files
 * rollback concept
 * migration safety
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — PostgreSQL DevOps Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * create database
 * create user
@@ -725,19 +720,17 @@ Topics:
 * restore
 * documentation
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 06 — Nginx and systemd
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Nginx Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * web server concept
 * install Nginx
@@ -745,15 +738,13 @@ Topics:
 * config files
 * static hosting
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — Nginx Server Blocks
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * server block
 * domain config
@@ -761,15 +752,13 @@ Topics:
 * index file
 * config test
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Reverse Proxy
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * proxy_pass
 * backend app
@@ -777,15 +766,13 @@ Topics:
 * localhost ports
 * reverse proxy troubleshooting
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — systemd Services
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * unit files
 * service start
@@ -793,15 +780,13 @@ Topics:
 * enable on boot
 * logs with `journalctl`
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — SSL Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * HTTPS
 * certificates
@@ -809,15 +794,13 @@ Topics:
 * Certbot basics
 * redirect HTTP to HTTPS
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — Nginx + systemd Portfolio Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * app service
 * reverse proxy
@@ -826,19 +809,17 @@ Topics:
 * validation
 * security notes
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 07 — Docker
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Docker Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * container
 * image
@@ -847,15 +828,13 @@ Topics:
 * Docker Hub
 * container lifecycle
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — Running Containers
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `docker run`
 * `docker ps`
@@ -864,15 +843,13 @@ Topics:
 * port mapping
 * volumes
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Dockerfile
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * base image
 * copy files
@@ -881,15 +858,13 @@ Topics:
 * command
 * build image
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Docker Compose
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * compose file
 * services
@@ -898,15 +873,13 @@ Topics:
 * environment variables
 * multi-container apps
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Docker Troubleshooting
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * container logs
 * failed builds
@@ -914,15 +887,13 @@ Topics:
 * volume issues
 * networking issues
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — Dockerized Application Stack Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * app container
 * database container
@@ -930,19 +901,17 @@ Topics:
 * compose workflow
 * portfolio documentation
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 08 — GitHub Actions CI/CD
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — CI/CD Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * continuous integration
 * continuous delivery
@@ -951,15 +920,13 @@ Topics:
 * job
 * step
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — GitHub Actions Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `.github/workflows`
 * YAML
@@ -968,15 +935,13 @@ Topics:
 * runners
 * actions
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Automated Checks
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * lint
 * tests
@@ -984,15 +949,13 @@ Topics:
 * status checks
 * failed pipeline troubleshooting
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Deployment Workflow
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * deploy job
 * environment variables
@@ -1000,15 +963,13 @@ Topics:
 * deployment safety
 * rollback concept
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — CI/CD Portfolio Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * automated validation
 * GitHub Actions workflow
@@ -1016,19 +977,17 @@ Topics:
 * deployment simulation
 * documentation
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 09 — Cloud Infrastructure
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Cloud Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * cloud provider
 * regions
@@ -1038,15 +997,13 @@ Topics:
 * network
 * billing awareness
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — Virtual Machines
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * create VM
 * SSH access
@@ -1054,15 +1011,13 @@ Topics:
 * public IP
 * Linux server setup
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Cloud Networking
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * VPC
 * subnets
@@ -1070,15 +1025,13 @@ Topics:
 * public/private access
 * ports
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Cloud Deployment
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * deploy app to VM
 * configure Nginx
@@ -1086,15 +1039,13 @@ Topics:
 * domain
 * SSL
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Cloud Cost Safety
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * free tier
 * budgets
@@ -1102,15 +1053,13 @@ Topics:
 * stopping resources
 * avoiding unexpected billing
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — Cloud VM Portfolio Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * VM provisioning
 * SSH
@@ -1119,19 +1068,17 @@ Topics:
 * SSL
 * deployment documentation
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 10 — Terraform
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Infrastructure as Code
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * IaC concept
 * Terraform basics
@@ -1139,15 +1086,13 @@ Topics:
 * resources
 * state
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — Terraform Project Structure
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `main.tf`
 * `variables.tf`
@@ -1155,15 +1100,13 @@ Topics:
 * `.tfvars`
 * formatting
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Terraform Commands
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `terraform init`
 * `terraform plan`
@@ -1172,30 +1115,26 @@ Topics:
 * `terraform fmt`
 * `terraform validate`
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Variables and Outputs
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * input variables
 * output values
 * locals
 * reusable configuration
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Terraform Cloud Resource Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * provision VM
 * firewall rule
@@ -1203,19 +1142,17 @@ Topics:
 * destroy safely
 * documentation
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 11 — Monitoring, Logging and Security
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Linux Monitoring Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * CPU
 * RAM
@@ -1228,15 +1165,13 @@ Topics:
 * `df`
 * `du`
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — Logs Deep Dive
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `/var/log`
 * `journalctl`
@@ -1246,15 +1181,13 @@ Topics:
 * log filtering
 * log rotation concept
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Uptime Kuma
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * uptime monitoring
 * HTTP checks
@@ -1263,30 +1196,26 @@ Topics:
 * status pages
 * notifications
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Netdata
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * real-time server dashboard
 * CPU/RAM/disk/network monitoring
 * quick troubleshooting
 * Netdata vs Prometheus/Grafana
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Prometheus Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * metrics
 * targets
@@ -1295,15 +1224,13 @@ Topics:
 * `prometheus.yml`
 * Prometheus UI
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — Node Exporter
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * Linux server metrics
 * CPU metrics
@@ -1313,15 +1240,13 @@ Topics:
 * network metrics
 * Prometheus target config
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 07 — Grafana Dashboards
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * Grafana datasource
 * Prometheus datasource
@@ -1330,15 +1255,13 @@ Topics:
 * queries
 * CPU/RAM/disk/network visualization
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 08 — Alerts
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * alert rules
 * CPU alerts
@@ -1347,15 +1270,13 @@ Topics:
 * service down alerts
 * notification channels
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 09 — Zabbix Intro
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * Zabbix server
 * Zabbix agent
@@ -1366,15 +1287,13 @@ Topics:
 * alerts
 * enterprise monitoring concept
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 10 — Cloud Monitoring Tools
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * Google Cloud Monitoring
 * AWS CloudWatch
@@ -1383,15 +1302,13 @@ Topics:
 * cloud alerts
 * billing/resource monitoring
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 11 — Basic Security Hardening
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * users
 * groups
@@ -1402,15 +1319,13 @@ Topics:
 * firewall
 * least privilege
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 12 — SSH Security
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * SSH keys
 * disable root login
@@ -1419,15 +1334,13 @@ Topics:
 * allowed users
 * SSH troubleshooting
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 13 — Firewall and Fail2ban
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `ufw`
 * open ports
@@ -1436,15 +1349,13 @@ Topics:
 * brute-force protection
 * SSH protection
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 14 — Monitoring and Security Portfolio Project
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * monitored Linux server
 * Prometheus
@@ -1456,19 +1367,17 @@ Topics:
 * documentation
 * screenshots
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 12 — Kubernetes
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Kubernetes Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * cluster
 * node
@@ -1478,15 +1387,13 @@ Topics:
 * namespace
 * container orchestration
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — kubectl Basics
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * `kubectl get`
 * `kubectl describe`
@@ -1494,15 +1401,13 @@ Topics:
 * `kubectl apply`
 * `kubectl delete`
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Deployments and Services
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * deployment YAML
 * service YAML
@@ -1510,30 +1415,26 @@ Topics:
 * rolling updates
 * service exposure
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — ConfigMaps and Secrets
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * ConfigMap
 * Secret
 * environment variables
 * safe configuration
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Kubernetes Troubleshooting
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * pod errors
 * image pull errors
@@ -1542,15 +1443,13 @@ Topics:
 * events
 * service connectivity
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 06 — Kubernetes Portfolio Lab
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * deploy app
 * service
@@ -1559,19 +1458,17 @@ Topics:
 * troubleshooting
 * documentation
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Phase 13 — Professional Portfolio
 
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
 ## Lesson 01 — Portfolio Repository Cleanup
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * README quality
 * folder structure
@@ -1580,31 +1477,27 @@ Topics:
 * screenshots
 * documentation consistency
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 02 — Documentation Site
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * MkDocs Material or Docusaurus
-* English | Հայերեն tabs
+* English / Հայերեն tabs
 * navigation
 * lesson pages
 * portfolio pages
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 03 — Architecture Diagrams
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * diagrams
 * network flows
@@ -1612,15 +1505,13 @@ Topics:
 * monitoring architecture
 * cloud architecture
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 04 — Final Portfolio Projects
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * Linux admin lab
 * Docker stack
@@ -1630,15 +1521,13 @@ Topics:
 * monitoring stack
 * security checklist
 
-Status:
-
-```text
-Planned
-```
+---
 
 ## Lesson 05 — Resume and GitHub Presentation
 
-Topics:
+**Status:** Planned
+
+**Topics:**
 
 * GitHub profile
 * project descriptions
@@ -1646,19 +1535,13 @@ Topics:
 * LinkedIn summary
 * DevOps interview preparation
 
-Status:
-
-```text
-Planned
-```
-
 ---
 
 # Final Portfolio Projects
 
 ## Project 01 — Linux Server Administration Lab
 
-Includes:
+**Includes:**
 
 * users
 * groups
@@ -1668,9 +1551,11 @@ Includes:
 * monitoring basics
 * security notes
 
+---
+
 ## Project 02 — Networking Troubleshooting Lab
 
-Includes:
+**Includes:**
 
 * DNS
 * ports
@@ -1679,9 +1564,11 @@ Includes:
 * firewall
 * routing basics
 
+---
+
 ## Project 03 — PostgreSQL DevOps Lab
 
-Includes:
+**Includes:**
 
 * PostgreSQL setup
 * users
@@ -1690,9 +1577,11 @@ Includes:
 * restore
 * documentation
 
+---
+
 ## Project 04 — Dockerized Application Stack
 
-Includes:
+**Includes:**
 
 * app container
 * database container
@@ -1701,9 +1590,11 @@ Includes:
 * logs
 * troubleshooting
 
+---
+
 ## Project 05 — CI/CD Pipeline Lab
 
-Includes:
+**Includes:**
 
 * GitHub Actions
 * automated checks
@@ -1711,9 +1602,11 @@ Includes:
 * deploy simulation
 * secrets handling
 
+---
+
 ## Project 06 — Cloud VM Deployment Lab
 
-Includes:
+**Includes:**
 
 * cloud VM
 * SSH
@@ -1723,9 +1616,11 @@ Includes:
 * SSL
 * deployment validation
 
+---
+
 ## Project 07 — Terraform Infrastructure Lab
 
-Includes:
+**Includes:**
 
 * Terraform project
 * provider
@@ -1734,9 +1629,11 @@ Includes:
 * outputs
 * safe destroy
 
+---
+
 ## Project 08 — Monitoring and Security Stack
 
-Includes:
+**Includes:**
 
 * Prometheus
 * Node Exporter
@@ -1808,15 +1705,47 @@ nothing to commit, working tree clean
 
 # Current Progress Summary
 
-```text
-00 Setup                         Completed
-01 Linux File System             Completed
-02 Linux Paths                   Completed
-03 File Operations               Completed
-04 Log Reading                   Completed
-05 Search and Filtering          Completed
-06 Permissions and Ownership     Completed
-07 Users, Groups and sudo        Completed
-08 Processes and Monitoring      In Progress
+| #  | Lesson / Phase            | Status      |
+| -- | ------------------------- | ----------- |
+| 00 | Setup                     | Completed   |
+| 01 | Linux File System         | Completed   |
+| 02 | Linux Paths               | Completed   |
+| 03 | File Operations           | Completed   |
+| 04 | Log Reading               | Completed   |
+| 05 | Search and Filtering      | Completed   |
+| 06 | Permissions and Ownership | Completed   |
+| 07 | Users, Groups and sudo    | Completed   |
+| 08 | Processes and Monitoring  | In Progress |
+
+---
+
+## Roadmap Maintenance Rule
+
+`ROADMAP.md` is the source of truth for the full DevOps learning path.
+
+At the end of every completed lesson, update:
+
+* current lesson status
+* phase status if needed
+* lesson status inside the phase
+* Current Progress Summary
+* next lesson status when starting it
+
+Then commit the lesson folder and `ROADMAP.md` together.
+
+Example:
+
+```bash
+cd ~/devops-labs
+git status
+git add 01-linux-basics/lesson-08-processes-monitoring ROADMAP.md
+git commit -m "Complete Linux processes and monitoring lesson"
+git push
+git status
 ```
 
+Expected final result:
+
+```text
+nothing to commit, working tree clean
+```
