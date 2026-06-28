@@ -1,178 +1,289 @@
-<p align="center">
-  <img src="./assets/devops-labs-banner.svg" alt="Gourgen DevOps Labs Banner" width="100%" />
-</p>
+<div align="center">
 
-<h2 align="center">Hands-on DevOps Learning Portfolio</h2>
+# 🚀 Gourgen DevOps Labs
 
-<p align="center">
-  <strong>Step-by-step DevOps labs focused on Linux, Networking, Automation, Cloud, CI/CD and Infrastructure.</strong>
-</p>
+### A hands-on DevOps learning portfolio built through real labs, bilingual documentation, troubleshooting, and production-minded projects.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-in%20progress-yellow" alt="Status" />
-  <img src="https://img.shields.io/badge/focus-DevOps-blue" alt="Focus" />
-  <img src="https://img.shields.io/badge/platform-Linux%20%7C%20Cloud-lightgrey" alt="Platform" />
-  <img src="https://img.shields.io/badge/portfolio-ready-success" alt="Portfolio" />
-</p>
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Current Phase](https://img.shields.io/badge/current%20phase-Networking%20Foundations-blue)
+![Linux](https://img.shields.io/badge/Linux%20Fundamentals-completed-brightgreen)
+![Portfolio](https://img.shields.io/badge/portfolio-ready-success)
+![Docs](https://img.shields.io/badge/docs-English%20%2B%20Armenian-blueviolet)
+![Goal](https://img.shields.io/badge/goal-Professional%20DevOps%20Engineer-orange)
 
----
+<br />
 
-## Goal
+<strong>Linux → Networking → Git → Bash → Databases → Nginx/systemd → Docker → CI/CD → Cloud → Terraform → Monitoring/Security → Kubernetes</strong>
 
-The goal of this repository is to document my step-by-step journey toward becoming a strong DevOps Engineer through hands-on labs, structured learning, troubleshooting, documentation and portfolio-ready projects.
-
-This repository focuses on practical DevOps skills, including:
-
-* Linux administration
-* Networking with CCNA-level foundations
-* Git and GitHub workflows
-* Bash scripting and automation
-* Database fundamentals for DevOps
-* Nginx, systemd and reverse proxy basics
-* Docker and container workflows
-* GitHub Actions CI/CD
-* Cloud infrastructure
-* Terraform and Infrastructure as Code
-* Monitoring, logging and security
-* Kubernetes fundamentals
-* Professional portfolio building
+</div>
 
 ---
 
-## Current Phase
+## 🧭 Repository Mission
 
-**Phase 1: Linux Fundamentals**
+This repository documents my structured path toward becoming a strong DevOps Engineer.
 
-Current focus:
+The focus is practical: every phase is built with real terminal work, hands-on labs, validation steps, troubleshooting notes, security habits, quizzes, Git commits, and portfolio-ready documentation.
 
-* Linux file system
-* Absolute and relative paths
-* File and directory operations
-* Log reading basics
-* Safe command-line habits
+This is not only a learning archive. It is designed to become a professional DevOps portfolio that shows growth from fundamentals to production-ready workflows.
 
 ---
 
-## Learning Progress
+## 🔥 Current DevOps Command Center
 
-| Phase | Topic                                  | Status      |
-| ----- | -------------------------------------- | ----------- |
-| 00    | Setup and Local DevOps Workspace       | Completed   |
-| 01    | Linux Fundamentals                     | In Progress |
-| 02    | Networking with CCNA-level Foundations | Planned     |
-| 03    | Git and GitHub Workflows               | Planned     |
-| 04    | Bash Scripting                         | Planned     |
-| 05    | Database Fundamentals for DevOps       | Planned     |
-| 06    | Nginx and systemd                      | Planned     |
-| 07    | Docker                                 | Planned     |
-| 08    | GitHub Actions CI/CD                   | Planned     |
-| 09    | Cloud Infrastructure                   | Planned     |
-| 10    | Terraform                              | Planned     |
-| 11    | Monitoring and Security                | Planned     |
-| 12    | Kubernetes                             | Planned     |
-| 13    | Professional Portfolio                 | Planned     |
+| Item | Current Value |
+|---|---|
+| 🎯 Current Phase | **02 — Networking with CCNA-Level Foundations** |
+| 📘 Current Lesson | **Lesson 01 — Networking Basics** |
+| 🧪 Current Lesson Status | **Planned** |
+| ✅ Recently Completed | **Phase 01 — Linux Fundamentals** |
+| 🐧 Completed Major Lab | **Lesson 12 — Linux Review Lab** |
+| 🗺️ Full Roadmap | [`ROADMAP.md`](./ROADMAP.md) |
+| 🌍 Documentation Style | English portfolio notes + Armenian learning notes |
+| 🏗️ Future Docs Site | MkDocs Material or Docusaurus with real English / Հայերեն tabs |
 
 ---
 
-## Completed Labs
+## 📊 Portfolio Progress Snapshot
 
-| Lab                                                                        | Focus                                                                    |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [Lesson 01 - Linux File System](./01-linux-basics/lesson-01-filesystem)    | Root directory, home directory, `/etc`, `/var/log`, `/mnt/c`, `/tmp`     |
-| [Lesson 02 - Linux Paths](./01-linux-basics/lesson-02-paths)               | Absolute paths, relative paths, `.`, `..`, `~`                           |
-| [Lesson 03 - File Operations](./01-linux-basics/lesson-03-file-operations) | File and directory creation, copy, move, rename, delete and safety rules |
-
----
-
-## Learning Method
-
-Each topic is completed using a structured learning process:
-
-| Step | Description                            |
-| ---- | -------------------------------------- |
-| 1    | Clear explanation of the concept       |
-| 2    | Practical command-line examples        |
-| 3    | Hands-on lab task                      |
-| 4    | Troubleshooting and error review       |
-| 5    | Quiz and understanding check           |
-| 6    | Git commit with a clear message        |
-| 7    | GitHub push                            |
-| 8    | Review before moving to the next topic |
+| Area | Progress | Status |
+|---|---:|---|
+| Local DevOps Workspace | `██████████` 100% | ✅ Completed |
+| Linux Fundamentals | `██████████` 100% | ✅ Completed |
+| Networking Foundations | `░░░░░░░░░░` 0% | 🟡 Current Phase |
+| Full DevOps Roadmap | `██░░░░░░░░` Building | 🚀 In Progress |
 
 ---
 
-## Repository Structure
+## 🏆 Completed Milestone
 
-| Folder                                                               | Purpose                                                               |
-| -------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [`00-setup`](./00-setup)                                             | Local DevOps workspace setup                                          |
-| [`01-linux-basics`](./01-linux-basics)                               | Linux fundamentals                                                    |
-| [`02-networking-ccna-foundations`](./02-networking-ccna-foundations) | Networking fundamentals with CCNA-level foundations                   |
-| [`03-git-github`](./03-git-github)                                   | Git and GitHub workflows                                              |
-| [`04-bash-scripting`](./04-bash-scripting)                           | Automation with Bash                                                  |
-| [`05-database-fundamentals`](./05-database-fundamentals)             | SQL, PostgreSQL, backups, restore, migrations and database operations |
-| [`06-nginx-systemd`](./06-nginx-systemd)                             | Web server, reverse proxy and Linux services                          |
-| [`07-docker`](./07-docker)                                           | Containers and Docker workflows                                       |
-| [`08-github-actions-cicd`](./08-github-actions-cicd)                 | CI/CD pipelines                                                       |
-| [`09-cloud`](./09-cloud)                                             | Cloud infrastructure                                                  |
-| [`10-terraform`](./10-terraform)                                     | Infrastructure as Code                                                |
-| [`11-monitoring-security`](./11-monitoring-security)                 | Monitoring, logging and security                                      |
-| [`12-kubernetes`](./12-kubernetes)                                   | Kubernetes fundamentals                                               |
-| [`13-portfolio`](./13-portfolio)                                     | Professional DevOps portfolio                                         |
+<div align="center">
 
----
+### ✅ Phase 01 — Linux Fundamentals
 
-## Security Rule
+</div>
 
-Passwords, API keys, SSH private keys and secrets must never be stored in this repository.
+The first major phase is complete and portfolio-ready.
 
-If a secret is accidentally committed, it must be removed from the code and rotated immediately because it may still exist in Git history or may already have been exposed.
+| Module | Status | Highlights |
+|---|---|---|
+| [`01-linux-basics`](./01-linux-basics) | ✅ Completed | Filesystem, paths, file operations, logs, search, permissions, users, processes, packages, services, environment variables, final review lab |
+
+**Final validation lab:** [`lesson-12-linux-review-lab`](./01-linux-basics/lesson-12-linux-review-lab)
+
+This lab connects all Linux fundamentals into one practical DevOps-style workflow.
 
 ---
 
-## Portfolio Direction
+## 🗺️ Roadmap Overview
 
-This repository will grow from basic training labs into professional portfolio-ready DevOps projects.
-
-Final portfolio labs will include:
-
-* clear objectives
-* architecture or workflow diagrams
-* commands used
-* validation steps
-* troubleshooting notes
-* security notes
-* screenshots
-* lessons learned
-* improvement ideas
-
-Planned portfolio-ready labs include:
-
-| Portfolio Lab                   | Focus                                                            |
-| ------------------------------- | ---------------------------------------------------------------- |
-| Linux Server Administration Lab | Linux users, permissions, logs, services and safe administration |
-| Networking CCNA Foundations Lab | IP addressing, DNS, ports, routing and troubleshooting           |
-| PostgreSQL DevOps Lab           | Database setup, users, permissions, backup and restore           |
-| Dockerized Application Stack    | Multi-container application with Docker Compose                  |
-| CI/CD Pipeline Lab              | Automated checks, builds and deployment using GitHub Actions     |
-| Cloud VM Deployment Lab         | Server provisioning, SSH, firewall, Nginx and SSL                |
-| Terraform Infrastructure Lab    | Infrastructure as Code with repeatable provisioning              |
-| Monitoring and Security Lab     | Logs, metrics, alerts and hardening basics                       |
+| Phase | Topic | Status | Portfolio Outcome |
+|---:|---|---|---|
+| 00 | [`Setup and Local DevOps Workspace`](./00-setup) | ✅ Completed | WSL, Git, GitHub, SSH workflow |
+| 01 | [`Linux Fundamentals`](./01-linux-basics) | ✅ Completed | Linux administration and troubleshooting foundation |
+| 02 | [`Networking with CCNA-Level Foundations`](./02-networking-ccna-foundations) | 🟡 Current | DNS, ports, IP addressing, firewalls, troubleshooting |
+| 03 | [`Git and GitHub Workflows`](./03-git-github) | ⚪ Planned | Professional Git workflow and PR process |
+| 04 | [`Bash Scripting`](./04-bash-scripting) | ⚪ Planned | Automation scripts and reusable shell tools |
+| 05 | [`Database Fundamentals for DevOps`](./05-database-fundamentals) | ⚪ Planned | PostgreSQL setup, permissions, backup/restore |
+| 06 | [`Nginx and systemd`](./06-nginx-systemd) | ⚪ Planned | Web server, reverse proxy, Linux services |
+| 07 | [`Docker`](./07-docker) | ⚪ Planned | Containerized application stack |
+| 08 | [`CI/CD Pipelines and GitOps`](./08-github-actions-cicd) | ⚪ Planned | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD |
+| 09 | [`Cloud Infrastructure`](./09-cloud) | ⚪ Planned | VM deployment, SSH, firewall, Nginx, SSL |
+| 10 | [`Terraform`](./10-terraform) | ⚪ Planned | Infrastructure as Code and safe provisioning |
+| 11 | [`Monitoring, Logging and Security`](./11-monitoring-security) | ⚪ Planned | Metrics, dashboards, alerts, hardening |
+| 12 | [`Kubernetes`](./12-kubernetes) | ⚪ Planned | Deployments, services, config, troubleshooting |
+| 13 | [`Professional Portfolio`](./13-portfolio) | ⚪ Planned | Documentation site, diagrams, resume/GitHub presentation |
 
 ---
 
-## Professional Habits Practiced
+## ⚡ Learning Flow
 
-* Always check the current location with `pwd` before important commands.
-* Use clear Git commit messages.
-* Commit and push each completed lab.
-* Document commands and lessons learned.
-* Never expose secrets.
-* Validate work before moving forward.
-* Build every major lab with portfolio quality in mind.
+```text
+Foundation
+  ├── Setup and workspace
+  ├── Linux fundamentals
+  └── Networking foundations
+
+Core Engineering
+  ├── Git and GitHub workflows
+  ├── Bash scripting
+  ├── Database fundamentals
+  └── Nginx and systemd
+
+Platform and Delivery
+  ├── Docker
+  ├── CI/CD pipelines and GitOps
+  ├── Cloud infrastructure
+  └── Terraform
+
+Production Operations
+  ├── Monitoring, logging and security
+  ├── Kubernetes
+  └── Professional portfolio
+```
 
 ---
 
-## Status
+## 🧪 Final Portfolio Projects
 
-This repository is actively maintained as part of my DevOps learning path.
+| # | Project | Purpose |
+|---:|---|---|
+| 01 | Linux Server Administration Lab | users, groups, permissions, logs, services, monitoring basics |
+| 02 | Networking Troubleshooting Lab | DNS, ports, curl, ping, firewall and routing basics |
+| 03 | PostgreSQL DevOps Lab | database setup, users, permissions, backup and restore |
+| 04 | Dockerized Application Stack | app container, database container, Nginx and Docker Compose |
+| 05 | CI/CD Pipeline Lab | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD and GitOps concepts |
+| 06 | Cloud VM Deployment Lab | VM, SSH, firewall, Nginx, systemd, SSL and deployment validation |
+| 07 | Terraform Infrastructure Lab | provider, resources, variables, outputs and safe destroy |
+| 08 | Monitoring and Security Stack | Prometheus, Node Exporter, Grafana, Uptime Kuma, alerts and hardening |
+
+---
+
+## 🛠️ Technologies and Tools Covered
+
+| Area | Tools and Topics |
+|---|---|
+| Operating System | Linux, WSL2 Ubuntu, shell workflow |
+| Version Control | Git, GitHub, commits, branches, pull requests |
+| Networking | IP, DNS, ports, TCP/UDP, curl, ping, firewalls |
+| Automation | Bash scripting, reusable scripts, validation workflows |
+| Databases | SQL, PostgreSQL, roles, permissions, backup/restore |
+| Web and Services | Nginx, reverse proxy, systemd, journalctl |
+| Containers | Docker, Dockerfile, Docker Compose |
+| CI/CD and GitOps | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD |
+| Cloud | VMs, SSH, firewall rules, deployment, cost safety |
+| Infrastructure as Code | Terraform, providers, state, variables, outputs |
+| Monitoring | Prometheus, Node Exporter, Grafana, Uptime Kuma, Netdata, Zabbix |
+| Security | least privilege, SSH hardening, firewalls, Fail2ban, secrets handling |
+| Orchestration | Kubernetes, kubectl, deployments, services, ConfigMaps, Secrets |
+
+---
+
+## 🌍 Documentation System
+
+Every lesson follows a bilingual documentation system:
+
+| File | Purpose |
+|---|---|
+| `notes.md` | Clean English portfolio version |
+| `notes.hy.md` | Armenian learning and explanation version |
+
+Each lesson is designed to include:
+
+```text
+badges
+overview
+learning objectives
+commands learned
+lab structure
+practical commands used
+detailed explanations
+common mistakes
+quick reference
+validation
+quiz review
+quiz result
+troubleshooting notes
+Git workflow
+what I learned
+final status
+```
+
+---
+
+## 🔐 Security Rules
+
+Security is practiced from the beginning.
+
+Important rules:
+
+- Never commit passwords, tokens, API keys, SSH private keys or real secrets.
+- Use safe test values in labs.
+- Protect `.env` files with `.gitignore`.
+- Check paths before deleting or modifying files.
+- Review commands before running destructive actions.
+- Check processes before killing them.
+- Review service status and logs before restarting services.
+- Use least privilege when working with users, groups and permissions.
+
+---
+
+## 🧠 Learning Method
+
+Each topic is completed using a repeatable workflow:
+
+| Step | Description |
+|---:|---|
+| 1 | Learn the concept clearly |
+| 2 | Practice commands in the terminal |
+| 3 | Save lab outputs |
+| 4 | Write English portfolio notes |
+| 5 | Write Armenian learning notes |
+| 6 | Complete a quiz |
+| 7 | Update roadmap status |
+| 8 | Commit and push to GitHub |
+| 9 | Move to the next lesson only after validation |
+
+---
+
+## 📁 Repository Structure
+
+```text
+devops-labs/
+├── README.md
+├── ROADMAP.md
+├── 00-setup/
+├── 01-linux-basics/
+├── 02-networking-ccna-foundations/
+├── 03-git-github/
+├── 04-bash-scripting/
+├── 05-database-fundamentals/
+├── 06-nginx-systemd/
+├── 07-docker/
+├── 08-github-actions-cicd/
+├── 09-cloud/
+├── 10-terraform/
+├── 11-monitoring-security/
+├── 12-kubernetes/
+└── 13-portfolio/
+```
+
+---
+
+## ✅ Professional Habits Practiced
+
+- Document every lesson.
+- Keep commits small and clear.
+- Validate work before moving forward.
+- Keep `ROADMAP.md` as the source of truth.
+- Use English documentation for portfolio presentation.
+- Use Armenian documentation for deeper personal understanding.
+- Practice security habits from the first Linux labs.
+- Build every major phase toward a portfolio-ready outcome.
+
+---
+
+## 🚀 Next Step
+
+```text
+Phase 02 — Networking with CCNA-Level Foundations
+Current lesson: Lesson 01 — Networking Basics
+```
+
+This next phase will build the networking foundation needed for cloud servers, Docker networking, Kubernetes, DNS, firewalls, SSH, and production troubleshooting.
+
+---
+
+<div align="center">
+
+## 🏁 DevOps Roadmap Direction
+
+**Learn deeply. Practice hands-on. Document professionally. Build real portfolio projects.**
+
+`Linux` → `Networking` → `Git` → `Bash` → `Databases` → `Nginx` → `Docker` → `CI/CD` → `Cloud` → `Terraform` → `Monitoring` → `Kubernetes`
+
+<br />
+
+**Repository status:** Actively maintained as part of a professional DevOps learning path.
+
+</div>
