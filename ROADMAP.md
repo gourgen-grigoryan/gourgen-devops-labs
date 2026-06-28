@@ -1,82 +1,141 @@
-# Gourgen DevOps Professional Roadmap
+<div align="center">
+
+# 🚀 Gourgen DevOps Professional Roadmap
+
+### From zero to production-ready DevOps skills through hands-on labs, bilingual documentation, and portfolio projects.
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
-![Focus](https://img.shields.io/badge/focus-DevOps-blue)
-![Level](https://img.shields.io/badge/level-zero%20to%20professional-lightgrey)
+![Current Phase](https://img.shields.io/badge/current%20phase-Networking%20Foundations-blue)
+![Linux](https://img.shields.io/badge/Linux%20Fundamentals-completed-brightgreen)
 ![Portfolio](https://img.shields.io/badge/portfolio-ready-success)
-![Documentation](https://img.shields.io/badge/docs-English%20%2B%20Armenian-blueviolet)
+![Docs](https://img.shields.io/badge/docs-English%20%2B%20Armenian-blueviolet)
+![Goal](https://img.shields.io/badge/goal-Professional%20DevOps%20Engineer-orange)
 
-A structured, hands-on DevOps learning roadmap focused on Linux, networking, automation, cloud, CI/CD, infrastructure, monitoring, security and portfolio-ready projects.
-
----
-
-## Current Status
-
-| Item                      | Value                                                          |
-| ------------------------- | -------------------------------------------------------------- |
-| Current Phase             | 02 — Networking with CCNA-Level Foundations                    |
-| Current Lesson            | Lesson 01 — Networking Basics                                  |
-| Current Lesson Status     | Planned                                                        |
-| Recently Completed        | Lesson 12 — Linux Review Lab                                   |
-| Main Repository Style     | Portfolio-ready DevOps learning repository                     |
-| English Notes             | `notes.md`                                                     |
-| Armenian Notes            | `notes.hy.md`                                                  |
-| Roadmap Source of Truth   | `ROADMAP.md`                                                   |
-| Future Documentation Site | MkDocs Material or Docusaurus with real English / Հայերեն tabs |
+</div>
 
 ---
 
-## Status Legend
+## 🧭 Roadmap Mission
 
-| Status      | Meaning                                                      |
-| ----------- | ------------------------------------------------------------ |
-| Completed   | Lesson finished, quiz passed, committed and pushed to GitHub |
-| In Progress | Currently being studied, documented or validated             |
-| Planned     | Planned for a later roadmap stage                            |
+This repository is a structured, hands-on DevOps learning roadmap focused on building real operational skills.
 
----
+The goal is not only to learn commands, but to build a professional portfolio that demonstrates practical ability in:
 
-## Roadmap Overview
+```text
+Linux → Networking → Git → Bash → Databases → Nginx/systemd → Docker → CI/CD → Cloud → Terraform → Monitoring/Security → Kubernetes → Portfolio
+```
 
-| Phase | Topic                                  | Status      |
-| ----- | -------------------------------------- | ----------- |
-| 00    | Setup and Local DevOps Workspace       | Completed   |
-| 01    | Linux Fundamentals                     | Completed   |
-| 02    | Networking with CCNA-Level Foundations | In Progress |
-| 03    | Git and GitHub Workflows               | Planned     |
-| 04    | Bash Scripting                         | Planned     |
-| 05    | Database Fundamentals for DevOps       | Planned     |
-| 06    | Nginx and systemd                      | Planned     |
-| 07    | Docker                                 | Planned     |
-| 08    | GitHub Actions CI/CD                   | Planned     |
-| 09    | Cloud Infrastructure                   | Planned     |
-| 10    | Terraform                              | Planned     |
-| 11    | Monitoring, Logging and Security       | Planned     |
-| 12    | Kubernetes                             | Planned     |
-| 13    | Professional Portfolio                 | Planned     |
+Every lesson is documented in two versions:
+
+| File | Purpose |
+|---|---|
+| `notes.md` | Clean English portfolio documentation |
+| `notes.hy.md` | Armenian learning and explanation version |
 
 ---
 
-## Table of Contents
+## 🔥 Current DevOps Command Center
 
-* [Phase 00 — Setup and Local DevOps Workspace](#phase-00--setup-and-local-devops-workspace)
-* [Phase 01 — Linux Fundamentals](#phase-01--linux-fundamentals)
-* [Phase 02 — Networking with CCNA-Level Foundations](#phase-02--networking-with-ccna-level-foundations)
-* [Phase 03 — Git and GitHub Workflows](#phase-03--git-and-github-workflows)
-* [Phase 04 — Bash Scripting](#phase-04--bash-scripting)
-* [Phase 05 — Database Fundamentals for DevOps](#phase-05--database-fundamentals-for-devops)
-* [Phase 06 — Nginx and systemd](#phase-06--nginx-and-systemd)
-* [Phase 07 — Docker](#phase-07--docker)
-* [Phase 08 — GitHub Actions CI/CD](#phase-08--github-actions-cicd)
-* [Phase 09 — Cloud Infrastructure](#phase-09--cloud-infrastructure)
-* [Phase 10 — Terraform](#phase-10--terraform)
-* [Phase 11 — Monitoring, Logging and Security](#phase-11--monitoring-logging-and-security)
-* [Phase 12 — Kubernetes](#phase-12--kubernetes)
-* [Phase 13 — Professional Portfolio](#phase-13--professional-portfolio)
-* [Final Portfolio Projects](#final-portfolio-projects)
-* [Documentation Rules](#documentation-rules)
-* [Git Workflow Rule](#git-workflow-rule)
-* [Current Progress Summary](#current-progress-summary)
+| Item | Current Value |
+|---|---|
+| 🎯 Current Phase | **02 — Networking with CCNA-Level Foundations** |
+| 📘 Current Lesson | **Lesson 01 — Networking Basics** |
+| 🧪 Current Lesson Status | **Planned** |
+| ✅ Recently Completed | **Lesson 12 — Linux Review Lab** |
+| 🐧 Completed Major Phase | **Phase 01 — Linux Fundamentals** |
+| 🗂️ Roadmap Source of Truth | `ROADMAP.md` |
+| 🌍 Documentation Style | English portfolio notes + Armenian explanation notes |
+| 🏗️ Future Docs Site | MkDocs Material or Docusaurus with real English / Հայերեն tabs |
+
+---
+
+## 📊 Progress Snapshot
+
+| Area | Progress | Status |
+|---|---:|---|
+| Workspace Setup | `██████████` 100% | ✅ Completed |
+| Linux Fundamentals | `██████████` 100% | ✅ Completed |
+| Networking Foundations | `░░░░░░░░░░` 0% | 🟡 In Progress |
+| Remaining DevOps Roadmap | `░░░░░░░░░░` Planned | ⚪ Planned |
+
+---
+
+## 🏁 Phase Status Legend
+
+| Icon | Status | Meaning |
+|---|---|---|
+| ✅ | Completed | Lesson or phase finished, quiz passed, committed and pushed |
+| 🟡 | In Progress | Currently being studied, documented, or validated |
+| ⚪ | Planned | Planned for a later roadmap stage |
+| 🧪 | Lab | Practical portfolio-ready validation project |
+| 🔐 | Security | Security-sensitive topic or best-practice checkpoint |
+| 🚀 | Portfolio | Project intended to strengthen GitHub portfolio presentation |
+
+---
+
+## 🗺️ Roadmap Overview
+
+| Phase | Topic | Status | Outcome |
+|---:|---|---|---|
+| 00 | Setup and Local DevOps Workspace | ✅ Completed | Local WSL + GitHub foundation |
+| 01 | Linux Fundamentals | ✅ Completed | Linux admin and troubleshooting foundation |
+| 02 | Networking with CCNA-Level Foundations | 🟡 In Progress | Network, DNS, ports, routing, firewall basics |
+| 03 | Git and GitHub Workflows | ⚪ Planned | Professional Git workflow |
+| 04 | Bash Scripting | ⚪ Planned | Automation scripts |
+| 05 | Database Fundamentals for DevOps | ⚪ Planned | PostgreSQL operations and backups |
+| 06 | Nginx and systemd | ⚪ Planned | Web server + service management |
+| 07 | Docker | ⚪ Planned | Containerized application stack |
+| 08 | CI/CD Pipelines and GitOps | ⚪ Planned | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD |
+| 09 | Cloud Infrastructure | ⚪ Planned | VM deployment and cloud networking |
+| 10 | Terraform | ⚪ Planned | Infrastructure as Code |
+| 11 | Monitoring, Logging and Security | ⚪ Planned | Observability and hardening |
+| 12 | Kubernetes | ⚪ Planned | Container orchestration |
+| 13 | Professional Portfolio | ⚪ Planned | Final presentation and documentation site |
+
+---
+
+## ⚡ Visual Learning Flow
+
+```mermaid
+flowchart LR
+    A[00 Setup] --> B[01 Linux]
+    B --> C[02 Networking]
+    C --> D[03 Git/GitHub]
+    D --> E[04 Bash]
+    E --> F[05 Databases]
+    F --> G[06 Nginx + systemd]
+    G --> H[07 Docker]
+    H --> I[08 CI/CD + GitOps]
+    I --> J[09 Cloud]
+    J --> K[10 Terraform]
+    K --> L[11 Monitoring + Security]
+    L --> M[12 Kubernetes]
+    M --> N[13 Professional Portfolio]
+```
+
+---
+
+## 📚 Table of Contents
+
+- [Phase 00 — Setup and Local DevOps Workspace](#phase-00--setup-and-local-devops-workspace)
+- [Phase 01 — Linux Fundamentals](#phase-01--linux-fundamentals)
+- [Phase 02 — Networking with CCNA-Level Foundations](#phase-02--networking-with-ccna-level-foundations)
+- [Phase 03 — Git and GitHub Workflows](#phase-03--git-and-github-workflows)
+- [Phase 04 — Bash Scripting](#phase-04--bash-scripting)
+- [Phase 05 — Database Fundamentals for DevOps](#phase-05--database-fundamentals-for-devops)
+- [Phase 06 — Nginx and systemd](#phase-06--nginx-and-systemd)
+- [Phase 07 — Docker](#phase-07--docker)
+- [Phase 08 — CI/CD Pipelines and GitOps](#phase-08--cicd-pipelines-and-gitops)
+- [Phase 09 — Cloud Infrastructure](#phase-09--cloud-infrastructure)
+- [Phase 10 — Terraform](#phase-10--terraform)
+- [Phase 11 — Monitoring, Logging and Security](#phase-11--monitoring-logging-and-security)
+- [Phase 12 — Kubernetes](#phase-12--kubernetes)
+- [Phase 13 — Professional Portfolio](#phase-13--professional-portfolio)
+- [Final Portfolio Projects](#final-portfolio-projects)
+- [Documentation System](#documentation-system)
+- [Git Workflow Rule](#git-workflow-rule)
+- [Current Progress Summary](#current-progress-summary)
+- [Roadmap Maintenance Rule](#roadmap-maintenance-rule)
 
 ---
 
@@ -84,20 +143,25 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-completed-brightgreen)
 
-## Lesson 00.01 — Local Workspace Setup
+<details open>
+<summary><strong>✅ Lesson 00.01 — Local Workspace Setup</strong></summary>
 
 **Status:** Completed
 
-**Topics:**
+**Topics Covered:**
 
-* Windows + WSL2 Ubuntu
-* Linux user environment
-* DevOps workspace structure
-* Git installation
-* Git global config
-* GitHub SSH connection
-* Repository initialization
-* First commit and push
+- Windows + WSL2 Ubuntu
+- Linux user environment
+- DevOps workspace structure
+- Git installation
+- Git global config
+- GitHub SSH connection
+- Repository initialization
+- First commit and push
+
+**Outcome:** A working local DevOps workspace connected to GitHub.
+
+</details>
 
 ---
 
@@ -105,227 +169,33 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-completed-brightgreen)
 
-## Lesson 01 — Linux File System
+> ✅ Phase 01 is fully completed.  
+> This phase builds the Linux foundation required for real DevOps work.
 
-**Status:** Completed
+| # | Lesson | Status | Core Skills |
+|---:|---|---|---|
+| 01 | Linux File System | ✅ Completed | `/`, `/home`, `/etc`, `/var/log`, `/tmp`, WSL filesystem |
+| 02 | Linux Paths | ✅ Completed | absolute paths, relative paths, `.`, `..`, `~`, `pwd` |
+| 03 | File Operations | ✅ Completed | `touch`, `mkdir`, `cp`, `mv`, `rm`, `cat`, redirects |
+| 04 | Log Reading Basics | ✅ Completed | `cat`, `less`, `head`, `tail`, `tail -f`, `wc -l` |
+| 05 | Search and Filtering | ✅ Completed | `grep`, `find`, pipes, filtering logs and files |
+| 06 | Permissions and Ownership | ✅ Completed | `chmod`, `chown`, `755`, `644`, `600`, secret permissions |
+| 07 | Users, Groups and sudo | ✅ Completed | `whoami`, `id`, `groups`, `sudo`, UID/GID, least privilege |
+| 08 | Processes and System Monitoring | ✅ Completed | `ps`, `top`, `htop`, `kill`, `uptime`, `free`, `df`, `du` |
+| 09 | Package Management | ✅ Completed | `apt update`, `install`, `remove`, `purge`, `autoremove` |
+| 10 | Linux Services Basics | ✅ Completed | `systemctl`, start/stop/restart, enable/disable, `journalctl` |
+| 11 | Environment Variables | ✅ Completed | `$PATH`, `printenv`, `export`, `.bashrc`, safe secrets |
+| 12 | Linux Review Lab | ✅ Completed | full Linux fundamentals review and portfolio cleanup |
 
-**Topics:**
+## 🧪 Phase 01 Final Lab
 
-* `/`
-* `/home`
-* `~`
-* `/mnt/c`
-* `/etc`
-* `/var/log`
-* `/tmp`
-* WSL file system rules
+**Lesson 12 — Linux Review Lab** combines:
 
----
+```text
+filesystem + paths + files + logs + search + permissions + users + processes + packages + services + environment variables
+```
 
-## Lesson 02 — Linux Paths
-
-**Status:** Completed
-
-**Topics:**
-
-* absolute paths
-* relative paths
-* `.`
-* `..`
-* `~`
-* `pwd`
-* safe navigation habits
-
----
-
-## Lesson 03 — File Operations
-
-**Status:** Completed
-
-**Topics:**
-
-* `touch`
-* `mkdir`
-* `mkdir -p`
-* `cp`
-* `cp -r`
-* `mv`
-* `rm`
-* `rmdir`
-* `cat`
-* `>`
-* `>>`
-* delete safety
-
----
-
-## Lesson 04 — Log Reading Basics
-
-**Status:** Completed
-
-**Topics:**
-
-* `cat`
-* `less`
-* `head`
-* `tail`
-* `tail -f`
-* `wc -l`
-* searching inside `less`
-* reading small and large logs safely
-
----
-
-## Lesson 05 — Search and Filtering
-
-**Status:** Completed
-
-**Topics:**
-
-* `grep`
-* `grep -i`
-* `grep -n`
-* `grep -v`
-* `grep -r`
-* `grep -E`
-* `find`
-* `wc`
-* pipes `|`
-* filtering logs and files
-
----
-
-## Lesson 06 — Permissions and Ownership
-
-**Status:** Completed
-
-**Topics:**
-
-* `r`, `w`, `x`
-* owner, group, others
-* `chmod`
-* `chown`
-* `755`
-* `644`
-* `600`
-* executable scripts
-* secret file permissions
-* permission troubleshooting
-
----
-
-## Lesson 07 — Users, Groups and sudo
-
-**Status:** Completed
-
-**Topics:**
-
-* `whoami`
-* `id`
-* `groups`
-* `sudo`
-* `root`
-* UID
-* GID
-* `getent passwd`
-* `getent group`
-* least privilege
-
----
-
-## Lesson 08 — Processes and System Monitoring
-
-**Status:** Completed
-
-**Topics:**
-
-* process
-* PID
-* `ps`
-* `ps aux`
-* `top`
-* `htop`
-* `kill`
-* `uptime`
-* `free -h`
-* `df -h`
-* `du -sh`
-* CPU/RAM/disk basics
-
----
-
-## Lesson 09 — Package Management
-
-**Status:** Completed
-
-**Topics:**
-
-* `apt update`
-* `apt upgrade`
-* `apt install`
-* `apt remove`
-* `apt purge`
-* `apt autoremove`
-* package search
-* checking installed packages
-* safe update habits
-
----
-
-## Lesson 10 — Linux Services Basics
-
-**Status:** Completed
-
-**Topics:**
-
-* `systemctl`
-* service status
-* start service
-* stop service
-* restart service
-* enable service
-* disable service
-* service troubleshooting
-* `journalctl`
-
----
-
-## Lesson 11 — Environment Variables
-
-**Status:** Completed
-
-**Topics:**
-
-* environment variables
-* `$PATH`
-* `printenv`
-* `export`
-* shell variables
-* `.bashrc`
-* `.profile`
-* safe secret handling
-
----
-
-## Lesson 12 — Linux Review Lab
-
-**Status:** Completed
-
-**Topics:**
-
-* full Linux fundamentals review
-* file system
-* paths
-* files
-* logs
-* search
-* permissions
-* users
-* processes
-* packages
-* services
-* final quiz
-* portfolio cleanup
+**Result:** Linux Fundamentals is portfolio-ready.
 
 ---
 
@@ -333,118 +203,18 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-in%20progress-yellow)
 
-## Lesson 01 — Networking Basics
+> 🟡 Current phase.  
+> This phase builds the networking foundation needed for servers, cloud, Docker, Kubernetes, firewalls, DNS, and troubleshooting.
 
-**Status:** Planned
-
-**Topics:**
-
-* what a network is
-* LAN
-* WAN
-* client/server
-* IP address
-* gateway
-* DNS
-* ports
-
----
-
-## Lesson 02 — IP Addressing
-
-**Status:** Planned
-
-**Topics:**
-
-* IPv4
-* private IP
-* public IP
-* subnet mask
-* CIDR
-* default gateway
-* loopback address
-
----
-
-## Lesson 03 — DNS Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* domain names
-* DNS records
-* A record
-* CNAME
-* MX
-* TXT
-* `nslookup`
-* `dig`
-
----
-
-## Lesson 04 — Ports and Protocols
-
-**Status:** Planned
-
-**Topics:**
-
-* TCP
-* UDP
-* HTTP
-* HTTPS
-* SSH
-* DNS
-* common ports
-* checking listening ports
-
----
-
-## Lesson 05 — Network Troubleshooting
-
-**Status:** Planned
-
-**Topics:**
-
-* `ping`
-* `curl`
-* `wget`
-* `ss`
-* `netstat`
-* `traceroute`
-* `ip addr`
-* `ip route`
-
----
-
-## Lesson 06 — Firewalls and Basic Rules
-
-**Status:** Planned
-
-**Topics:**
-
-* firewall concept
-* inbound traffic
-* outbound traffic
-* `ufw`
-* allow rules
-* deny rules
-* port security
-
----
-
-## Lesson 07 — Networking Review Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* DNS troubleshooting
-* port checks
-* HTTP checks
-* SSH checks
-* firewall basics
-* network debugging workflow
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Networking Basics | ⚪ Planned | network concept, LAN, WAN, client/server, IP, gateway, DNS, ports |
+| 02 | IP Addressing | ⚪ Planned | IPv4, private/public IP, subnet mask, CIDR, gateway, loopback |
+| 03 | DNS Basics | ⚪ Planned | domain names, A, CNAME, MX, TXT, `nslookup`, `dig` |
+| 04 | Ports and Protocols | ⚪ Planned | TCP, UDP, HTTP, HTTPS, SSH, DNS, common ports |
+| 05 | Network Troubleshooting | ⚪ Planned | `ping`, `curl`, `wget`, `ss`, `netstat`, `traceroute`, `ip addr`, `ip route` |
+| 06 | Firewalls and Basic Rules | ⚪ Planned | inbound/outbound traffic, `ufw`, allow/deny rules, port security |
+| 07 | Networking Review Lab | ⚪ Planned | DNS troubleshooting, port checks, HTTP/SSH checks, firewall workflow |
 
 ---
 
@@ -452,93 +222,14 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Git Fundamentals
-
-**Status:** Planned
-
-**Topics:**
-
-* repository
-* working tree
-* staging area
-* commits
-* `git status`
-* `git add`
-* `git commit`
-* `git log`
-
----
-
-## Lesson 02 — Branches
-
-**Status:** Planned
-
-**Topics:**
-
-* branches
-* `git branch`
-* `git checkout`
-* `git switch`
-* merge basics
-* branch naming
-
----
-
-## Lesson 03 — Remote Repositories
-
-**Status:** Planned
-
-**Topics:**
-
-* origin
-* remote URL
-* `git push`
-* `git pull`
-* `git fetch`
-* upstream branch
-
----
-
-## Lesson 04 — Pull Requests
-
-**Status:** Planned
-
-**Topics:**
-
-* PR workflow
-* code review
-* merge commits
-* squash merge
-* GitHub UI basics
-
----
-
-## Lesson 05 — Git Troubleshooting
-
-**Status:** Planned
-
-**Topics:**
-
-* undo changes
-* restore files
-* reset basics
-* merge conflicts
-* safe recovery
-
----
-
-## Lesson 06 — Professional Git Workflow Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* feature branch
-* clean commits
-* pull request
-* review
-* merge
-* GitHub portfolio workflow
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Git Fundamentals | ⚪ Planned | repository, working tree, staging area, commits, `git status`, `git add`, `git commit`, `git log` |
+| 02 | Branches | ⚪ Planned | branches, `git branch`, `git checkout`, `git switch`, merge basics |
+| 03 | Remote Repositories | ⚪ Planned | origin, remote URL, `git push`, `git pull`, `git fetch`, upstream branch |
+| 04 | Pull Requests | ⚪ Planned | PR workflow, code review, merge commits, squash merge, GitHub UI |
+| 05 | Git Troubleshooting | ⚪ Planned | undo changes, restore files, reset basics, merge conflicts, recovery |
+| 06 | Professional Git Workflow Lab | ⚪ Planned | feature branch, clean commits, PR, review, merge, portfolio workflow |
 
 ---
 
@@ -546,89 +237,14 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Bash Script Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* shebang
-* executable scripts
-* variables
-* echo
-* comments
-* script structure
-
----
-
-## Lesson 02 — Arguments and Input
-
-**Status:** Planned
-
-**Topics:**
-
-* `$1`
-* `$2`
-* `$@`
-* `read`
-* input validation
-
----
-
-## Lesson 03 — Conditions
-
-**Status:** Planned
-
-**Topics:**
-
-* `if`
-* `else`
-* `elif`
-* test expressions
-* file checks
-* string checks
-* numeric checks
-
----
-
-## Lesson 04 — Loops
-
-**Status:** Planned
-
-**Topics:**
-
-* `for`
-* `while`
-* loop over files
-* loop over command output
-* safe loops
-
----
-
-## Lesson 05 — Functions
-
-**Status:** Planned
-
-**Topics:**
-
-* function syntax
-* reusable logic
-* return codes
-* script organization
-
----
-
-## Lesson 06 — Bash Automation Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* log checker script
-* backup script
-* disk usage checker
-* service status checker
-* portfolio-ready automation scripts
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Bash Script Basics | ⚪ Planned | shebang, executable scripts, variables, echo, comments |
+| 02 | Arguments and Input | ⚪ Planned | `$1`, `$2`, `$@`, `read`, input validation |
+| 03 | Conditions | ⚪ Planned | `if`, `else`, `elif`, test expressions, file/string/numeric checks |
+| 04 | Loops | ⚪ Planned | `for`, `while`, loop over files, safe loops |
+| 05 | Functions | ⚪ Planned | function syntax, reusable logic, return codes |
+| 06 | Bash Automation Lab | ⚪ Planned | log checker, backup script, disk checker, service checker |
 
 ---
 
@@ -636,90 +252,14 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — SQL Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* database
-* table
-* row
-* column
-* SELECT
-* INSERT
-* UPDATE
-* DELETE
-
----
-
-## Lesson 02 — PostgreSQL Setup
-
-**Status:** Planned
-
-**Topics:**
-
-* install PostgreSQL
-* users
-* databases
-* roles
-* `psql`
-* connection basics
-
----
-
-## Lesson 03 — Database Permissions
-
-**Status:** Planned
-
-**Topics:**
-
-* database users
-* grants
-* privileges
-* least privilege for databases
-
----
-
-## Lesson 04 — Backup and Restore
-
-**Status:** Planned
-
-**Topics:**
-
-* `pg_dump`
-* restore
-* backup files
-* backup validation
-* safe restore workflow
-
----
-
-## Lesson 05 — Migrations Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* schema changes
-* migration files
-* rollback concept
-* migration safety
-
----
-
-## Lesson 06 — PostgreSQL DevOps Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* create database
-* create user
-* permissions
-* backup
-* restore
-* documentation
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | SQL Basics | ⚪ Planned | database, table, row, column, SELECT, INSERT, UPDATE, DELETE |
+| 02 | PostgreSQL Setup | ⚪ Planned | install PostgreSQL, users, databases, roles, `psql` |
+| 03 | Database Permissions | ⚪ Planned | users, grants, privileges, least privilege |
+| 04 | Backup and Restore | ⚪ Planned | `pg_dump`, restore, backup validation, safe restore workflow |
+| 05 | Migrations Basics | ⚪ Planned | schema changes, migration files, rollback concept |
+| 06 | PostgreSQL DevOps Lab | ⚪ Planned | create database/user, permissions, backup, restore, documentation |
 
 ---
 
@@ -727,88 +267,14 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Nginx Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* web server concept
-* install Nginx
-* default site
-* config files
-* static hosting
-
----
-
-## Lesson 02 — Nginx Server Blocks
-
-**Status:** Planned
-
-**Topics:**
-
-* server block
-* domain config
-* root directory
-* index file
-* config test
-
----
-
-## Lesson 03 — Reverse Proxy
-
-**Status:** Planned
-
-**Topics:**
-
-* proxy_pass
-* backend app
-* headers
-* localhost ports
-* reverse proxy troubleshooting
-
----
-
-## Lesson 04 — systemd Services
-
-**Status:** Planned
-
-**Topics:**
-
-* unit files
-* service start
-* service restart
-* enable on boot
-* logs with `journalctl`
-
----
-
-## Lesson 05 — SSL Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* HTTPS
-* certificates
-* Let's Encrypt concept
-* Certbot basics
-* redirect HTTP to HTTPS
-
----
-
-## Lesson 06 — Nginx + systemd Portfolio Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* app service
-* reverse proxy
-* logs
-* restart workflow
-* validation
-* security notes
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Nginx Basics | ⚪ Planned | web server concept, install Nginx, default site, config files |
+| 02 | Nginx Server Blocks | ⚪ Planned | server block, domain config, root directory, index file, config test |
+| 03 | Reverse Proxy | ⚪ Planned | `proxy_pass`, backend app, headers, localhost ports, troubleshooting |
+| 04 | systemd Services | ⚪ Planned | unit files, service start/restart, enable on boot, `journalctl` |
+| 05 | SSL Basics | ⚪ Planned | HTTPS, certificates, Let's Encrypt, Certbot, redirect HTTP to HTTPS |
+| 06 | Nginx + systemd Portfolio Lab | ⚪ Planned | app service, reverse proxy, logs, restart workflow, validation |
 
 ---
 
@@ -816,167 +282,40 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Docker Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* container
-* image
-* Dockerfile
-* registry
-* Docker Hub
-* container lifecycle
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Docker Basics | ⚪ Planned | container, image, Dockerfile, registry, Docker Hub, lifecycle |
+| 02 | Running Containers | ⚪ Planned | `docker run`, `docker ps`, `docker stop`, `docker logs`, ports, volumes |
+| 03 | Dockerfile | ⚪ Planned | base image, copy files, dependencies, expose port, command, build |
+| 04 | Docker Compose | ⚪ Planned | compose file, services, networks, volumes, environment variables |
+| 05 | Docker Troubleshooting | ⚪ Planned | logs, failed builds, port conflicts, volumes, networking |
+| 06 | Dockerized Application Stack Lab | ⚪ Planned | app, database, Nginx, Compose workflow, documentation |
 
 ---
 
-## Lesson 02 — Running Containers
-
-**Status:** Planned
-
-**Topics:**
-
-* `docker run`
-* `docker ps`
-* `docker stop`
-* `docker logs`
-* port mapping
-* volumes
-
----
-
-## Lesson 03 — Dockerfile
-
-**Status:** Planned
-
-**Topics:**
-
-* base image
-* copy files
-* install dependencies
-* expose port
-* command
-* build image
-
----
-
-## Lesson 04 — Docker Compose
-
-**Status:** Planned
-
-**Topics:**
-
-* compose file
-* services
-* networks
-* volumes
-* environment variables
-* multi-container apps
-
----
-
-## Lesson 05 — Docker Troubleshooting
-
-**Status:** Planned
-
-**Topics:**
-
-* container logs
-* failed builds
-* port conflicts
-* volume issues
-* networking issues
-
----
-
-## Lesson 06 — Dockerized Application Stack Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* app container
-* database container
-* Nginx container
-* compose workflow
-* portfolio documentation
-
----
-
-# Phase 08 — GitHub Actions CI/CD
+# Phase 08 — CI/CD Pipelines and GitOps
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — CI/CD Basics
+> This phase covers the most important CI/CD tools for DevOps engineers: **GitHub Actions, GitLab CI/CD, Jenkins, and Argo CD**.
 
-**Status:** Planned
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | CI/CD Basics | ⚪ Planned | CI, CD, pipeline, workflow, job, step, deployment safety |
+| 02 | GitHub Actions | ⚪ Planned | `.github/workflows`, YAML, triggers, jobs, runners, actions, secrets |
+| 03 | GitLab CI/CD | ⚪ Planned | `.gitlab-ci.yml`, stages, jobs, runners, artifacts, variables |
+| 04 | Jenkins | ⚪ Planned | Jenkins server, agents, plugins, Jenkinsfile, credentials |
+| 05 | Argo CD and GitOps | ⚪ Planned | GitOps, desired state, Kubernetes sync, Argo CD UI, rollback |
+| 06 | CI/CD Pipeline Portfolio Lab | ⚪ Planned | tool comparison, automated validation, build/deploy simulation, GitOps concept |
 
-**Topics:**
+## 🔁 CI/CD Tool Learning Order
 
-* continuous integration
-* continuous delivery
-* pipeline
-* workflow
-* job
-* step
-
----
-
-## Lesson 02 — GitHub Actions Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* `.github/workflows`
-* YAML
-* triggers
-* jobs
-* runners
-* actions
-
----
-
-## Lesson 03 — Automated Checks
-
-**Status:** Planned
-
-**Topics:**
-
-* lint
-* tests
-* build checks
-* status checks
-* failed pipeline troubleshooting
-
----
-
-## Lesson 04 — Deployment Workflow
-
-**Status:** Planned
-
-**Topics:**
-
-* deploy job
-* environment variables
-* secrets
-* deployment safety
-* rollback concept
-
----
-
-## Lesson 05 — CI/CD Portfolio Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* automated validation
-* GitHub Actions workflow
-* build pipeline
-* deployment simulation
-* documentation
+```text
+1. GitHub Actions  → GitHub-native CI/CD foundation
+2. GitLab CI/CD    → full DevOps platform pipelines
+3. Jenkins         → enterprise CI/CD and Jenkinsfile workflows
+4. Argo CD         → GitOps deployment model for Kubernetes
+```
 
 ---
 
@@ -984,90 +323,14 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Cloud Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* cloud provider
-* regions
-* zones
-* compute
-* storage
-* network
-* billing awareness
-
----
-
-## Lesson 02 — Virtual Machines
-
-**Status:** Planned
-
-**Topics:**
-
-* create VM
-* SSH access
-* firewall rules
-* public IP
-* Linux server setup
-
----
-
-## Lesson 03 — Cloud Networking
-
-**Status:** Planned
-
-**Topics:**
-
-* VPC
-* subnets
-* firewall
-* public/private access
-* ports
-
----
-
-## Lesson 04 — Cloud Deployment
-
-**Status:** Planned
-
-**Topics:**
-
-* deploy app to VM
-* configure Nginx
-* systemd service
-* domain
-* SSL
-
----
-
-## Lesson 05 — Cloud Cost Safety
-
-**Status:** Planned
-
-**Topics:**
-
-* free tier
-* budgets
-* alerts
-* stopping resources
-* avoiding unexpected billing
-
----
-
-## Lesson 06 — Cloud VM Portfolio Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* VM provisioning
-* SSH
-* firewall
-* Nginx
-* SSL
-* deployment documentation
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Cloud Basics | ⚪ Planned | provider, regions, zones, compute, storage, network, billing awareness |
+| 02 | Virtual Machines | ⚪ Planned | create VM, SSH, firewall rules, public IP, Linux server setup |
+| 03 | Cloud Networking | ⚪ Planned | VPC, subnets, firewall, public/private access, ports |
+| 04 | Cloud Deployment | ⚪ Planned | app on VM, Nginx, systemd service, domain, SSL |
+| 05 | Cloud Cost Safety | ⚪ Planned | free tier, budgets, alerts, stopping resources, billing safety |
+| 06 | Cloud VM Portfolio Lab | ⚪ Planned | VM provisioning, SSH, firewall, Nginx, SSL, deployment docs |
 
 ---
 
@@ -1075,73 +338,13 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Infrastructure as Code
-
-**Status:** Planned
-
-**Topics:**
-
-* IaC concept
-* Terraform basics
-* providers
-* resources
-* state
-
----
-
-## Lesson 02 — Terraform Project Structure
-
-**Status:** Planned
-
-**Topics:**
-
-* `main.tf`
-* `variables.tf`
-* `outputs.tf`
-* `.tfvars`
-* formatting
-
----
-
-## Lesson 03 — Terraform Commands
-
-**Status:** Planned
-
-**Topics:**
-
-* `terraform init`
-* `terraform plan`
-* `terraform apply`
-* `terraform destroy`
-* `terraform fmt`
-* `terraform validate`
-
----
-
-## Lesson 04 — Variables and Outputs
-
-**Status:** Planned
-
-**Topics:**
-
-* input variables
-* output values
-* locals
-* reusable configuration
-
----
-
-## Lesson 05 — Terraform Cloud Resource Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* provision VM
-* firewall rule
-* output IP
-* destroy safely
-* documentation
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Infrastructure as Code | ⚪ Planned | IaC, Terraform basics, providers, resources, state |
+| 02 | Terraform Project Structure | ⚪ Planned | `main.tf`, `variables.tf`, `outputs.tf`, `.tfvars`, formatting |
+| 03 | Terraform Commands | ⚪ Planned | `init`, `plan`, `apply`, `destroy`, `fmt`, `validate` |
+| 04 | Variables and Outputs | ⚪ Planned | input variables, output values, locals, reusable configuration |
+| 05 | Terraform Cloud Resource Lab | ⚪ Planned | provision VM, firewall rule, output IP, safe destroy, docs |
 
 ---
 
@@ -1149,224 +352,22 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Linux Monitoring Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* CPU
-* RAM
-* disk
-* uptime
-* load average
-* `top`
-* `htop`
-* `free`
-* `df`
-* `du`
-
----
-
-## Lesson 02 — Logs Deep Dive
-
-**Status:** Planned
-
-**Topics:**
-
-* `/var/log`
-* `journalctl`
-* service logs
-* auth logs
-* application logs
-* log filtering
-* log rotation concept
-
----
-
-## Lesson 03 — Uptime Kuma
-
-**Status:** Planned
-
-**Topics:**
-
-* uptime monitoring
-* HTTP checks
-* TCP checks
-* website monitoring
-* status pages
-* notifications
-
----
-
-## Lesson 04 — Netdata
-
-**Status:** Planned
-
-**Topics:**
-
-* real-time server dashboard
-* CPU/RAM/disk/network monitoring
-* quick troubleshooting
-* Netdata vs Prometheus/Grafana
-
----
-
-## Lesson 05 — Prometheus Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* metrics
-* targets
-* scrape
-* time-series data
-* `prometheus.yml`
-* Prometheus UI
-
----
-
-## Lesson 06 — Node Exporter
-
-**Status:** Planned
-
-**Topics:**
-
-* Linux server metrics
-* CPU metrics
-* memory metrics
-* disk metrics
-* filesystem metrics
-* network metrics
-* Prometheus target config
-
----
-
-## Lesson 07 — Grafana Dashboards
-
-**Status:** Planned
-
-**Topics:**
-
-* Grafana datasource
-* Prometheus datasource
-* dashboards
-* panels
-* queries
-* CPU/RAM/disk/network visualization
-
----
-
-## Lesson 08 — Alerts
-
-**Status:** Planned
-
-**Topics:**
-
-* alert rules
-* CPU alerts
-* disk alerts
-* uptime alerts
-* service down alerts
-* notification channels
-
----
-
-## Lesson 09 — Zabbix Intro
-
-**Status:** Planned
-
-**Topics:**
-
-* Zabbix server
-* Zabbix agent
-* hosts
-* items
-* triggers
-* templates
-* alerts
-* enterprise monitoring concept
-
----
-
-## Lesson 10 — Cloud Monitoring Tools
-
-**Status:** Planned
-
-**Topics:**
-
-* Google Cloud Monitoring
-* AWS CloudWatch
-* Azure Monitor
-* cloud metrics
-* cloud alerts
-* billing/resource monitoring
-
----
-
-## Lesson 11 — Basic Security Hardening
-
-**Status:** Planned
-
-**Topics:**
-
-* users
-* groups
-* sudo
-* permissions
-* updates
-* SSH hardening
-* firewall
-* least privilege
-
----
-
-## Lesson 12 — SSH Security
-
-**Status:** Planned
-
-**Topics:**
-
-* SSH keys
-* disable root login
-* password login risks
-* `sshd_config`
-* allowed users
-* SSH troubleshooting
-
----
-
-## Lesson 13 — Firewall and Fail2ban
-
-**Status:** Planned
-
-**Topics:**
-
-* `ufw`
-* open ports
-* allow/deny rules
-* Fail2ban
-* brute-force protection
-* SSH protection
-
----
-
-## Lesson 14 — Monitoring and Security Portfolio Project
-
-**Status:** Planned
-
-**Topics:**
-
-* monitored Linux server
-* Prometheus
-* Node Exporter
-* Grafana
-* Uptime Kuma
-* security hardening checklist
-* alerts
-* documentation
-* screenshots
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Linux Monitoring Basics | ⚪ Planned | CPU, RAM, disk, uptime, load average, `top`, `htop`, `free`, `df`, `du` |
+| 02 | Logs Deep Dive | ⚪ Planned | `/var/log`, `journalctl`, auth logs, app logs, log filtering, rotation |
+| 03 | Uptime Kuma | ⚪ Planned | uptime monitoring, HTTP/TCP checks, status pages, notifications |
+| 04 | Netdata | ⚪ Planned | real-time server dashboard, CPU/RAM/disk/network monitoring |
+| 05 | Prometheus Basics | ⚪ Planned | metrics, targets, scrape, time-series data, `prometheus.yml` |
+| 06 | Node Exporter | ⚪ Planned | Linux metrics, CPU, memory, disk, filesystem, network |
+| 07 | Grafana Dashboards | ⚪ Planned | datasource, dashboards, panels, Prometheus queries |
+| 08 | Alerts | ⚪ Planned | alert rules, CPU/disk/uptime/service alerts, notifications |
+| 09 | Zabbix Intro | ⚪ Planned | server, agent, hosts, items, triggers, templates, enterprise monitoring |
+| 10 | Cloud Monitoring Tools | ⚪ Planned | Google Cloud Monitoring, AWS CloudWatch, Azure Monitor |
+| 11 | Basic Security Hardening | ⚪ Planned | users, sudo, permissions, updates, SSH hardening, firewall |
+| 12 | SSH Security | ⚪ Planned | SSH keys, disable root login, password risks, `sshd_config` |
+| 13 | Firewall and Fail2ban | ⚪ Planned | `ufw`, open ports, allow/deny rules, Fail2ban, SSH protection |
+| 14 | Monitoring and Security Portfolio Project | ⚪ Planned | Prometheus, Node Exporter, Grafana, Uptime Kuma, alerts, hardening |
 
 ---
 
@@ -1374,90 +375,14 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Kubernetes Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* cluster
-* node
-* pod
-* deployment
-* service
-* namespace
-* container orchestration
-
----
-
-## Lesson 02 — kubectl Basics
-
-**Status:** Planned
-
-**Topics:**
-
-* `kubectl get`
-* `kubectl describe`
-* `kubectl logs`
-* `kubectl apply`
-* `kubectl delete`
-
----
-
-## Lesson 03 — Deployments and Services
-
-**Status:** Planned
-
-**Topics:**
-
-* deployment YAML
-* service YAML
-* scaling
-* rolling updates
-* service exposure
-
----
-
-## Lesson 04 — ConfigMaps and Secrets
-
-**Status:** Planned
-
-**Topics:**
-
-* ConfigMap
-* Secret
-* environment variables
-* safe configuration
-
----
-
-## Lesson 05 — Kubernetes Troubleshooting
-
-**Status:** Planned
-
-**Topics:**
-
-* pod errors
-* image pull errors
-* crash loop
-* logs
-* events
-* service connectivity
-
----
-
-## Lesson 06 — Kubernetes Portfolio Lab
-
-**Status:** Planned
-
-**Topics:**
-
-* deploy app
-* service
-* config
-* logs
-* troubleshooting
-* documentation
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Kubernetes Basics | ⚪ Planned | cluster, node, pod, deployment, service, namespace |
+| 02 | kubectl Basics | ⚪ Planned | `kubectl get`, `describe`, `logs`, `apply`, `delete` |
+| 03 | Deployments and Services | ⚪ Planned | deployment YAML, service YAML, scaling, rolling updates |
+| 04 | ConfigMaps and Secrets | ⚪ Planned | ConfigMap, Secret, environment variables, safe configuration |
+| 05 | Kubernetes Troubleshooting | ⚪ Planned | pod errors, image pull errors, crash loop, logs, events |
+| 06 | Kubernetes Portfolio Lab | ⚪ Planned | deploy app, service, config, logs, troubleshooting, documentation |
 
 ---
 
@@ -1465,189 +390,32 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-## Lesson 01 — Portfolio Repository Cleanup
-
-**Status:** Planned
-
-**Topics:**
-
-* README quality
-* folder structure
-* badges
-* links
-* screenshots
-* documentation consistency
-
----
-
-## Lesson 02 — Documentation Site
-
-**Status:** Planned
-
-**Topics:**
-
-* MkDocs Material or Docusaurus
-* English / Հայերեն tabs
-* navigation
-* lesson pages
-* portfolio pages
-
----
-
-## Lesson 03 — Architecture Diagrams
-
-**Status:** Planned
-
-**Topics:**
-
-* diagrams
-* network flows
-* CI/CD flows
-* monitoring architecture
-* cloud architecture
-
----
-
-## Lesson 04 — Final Portfolio Projects
-
-**Status:** Planned
-
-**Topics:**
-
-* Linux admin lab
-* Docker stack
-* CI/CD pipeline
-* cloud deployment
-* Terraform infrastructure
-* monitoring stack
-* security checklist
-
----
-
-## Lesson 05 — Resume and GitHub Presentation
-
-**Status:** Planned
-
-**Topics:**
-
-* GitHub profile
-* project descriptions
-* resume bullets
-* LinkedIn summary
-* DevOps interview preparation
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Portfolio Repository Cleanup | ⚪ Planned | README quality, folder structure, badges, links, screenshots |
+| 02 | Documentation Site | ⚪ Planned | MkDocs Material or Docusaurus, English/Հայերեն tabs, navigation |
+| 03 | Architecture Diagrams | ⚪ Planned | network flows, CI/CD flows, monitoring/cloud architecture |
+| 04 | Final Portfolio Projects | ⚪ Planned | Linux admin, Docker, CI/CD, cloud, Terraform, monitoring, security |
+| 05 | Resume and GitHub Presentation | ⚪ Planned | GitHub profile, project descriptions, resume bullets, LinkedIn, interviews |
 
 ---
 
 # Final Portfolio Projects
 
-## Project 01 — Linux Server Administration Lab
-
-**Includes:**
-
-* users
-* groups
-* permissions
-* logs
-* services
-* monitoring basics
-* security notes
-
----
-
-## Project 02 — Networking Troubleshooting Lab
-
-**Includes:**
-
-* DNS
-* ports
-* curl
-* ping
-* firewall
-* routing basics
+| # | Project | Includes |
+|---:|---|---|
+| 01 | Linux Server Administration Lab | users, groups, permissions, logs, services, monitoring basics, security notes |
+| 02 | Networking Troubleshooting Lab | DNS, ports, curl, ping, firewall, routing basics |
+| 03 | PostgreSQL DevOps Lab | PostgreSQL setup, users, permissions, backups, restore, documentation |
+| 04 | Dockerized Application Stack | app container, database container, Nginx, Docker Compose, logs, troubleshooting |
+| 05 | CI/CD Pipeline Lab | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD, checks, builds, deploy simulation, GitOps |
+| 06 | Cloud VM Deployment Lab | cloud VM, SSH, firewall, Nginx, systemd, SSL, deployment validation |
+| 07 | Terraform Infrastructure Lab | Terraform project, provider, resources, variables, outputs, safe destroy |
+| 08 | Monitoring and Security Stack | Prometheus, Node Exporter, Grafana, Uptime Kuma, Netdata, Zabbix, alerts, security checklist |
 
 ---
 
-## Project 03 — PostgreSQL DevOps Lab
-
-**Includes:**
-
-* PostgreSQL setup
-* users
-* permissions
-* backups
-* restore
-* documentation
-
----
-
-## Project 04 — Dockerized Application Stack
-
-**Includes:**
-
-* app container
-* database container
-* Nginx
-* Docker Compose
-* logs
-* troubleshooting
-
----
-
-## Project 05 — CI/CD Pipeline Lab
-
-**Includes:**
-
-* GitHub Actions
-* automated checks
-* build
-* deploy simulation
-* secrets handling
-
----
-
-## Project 06 — Cloud VM Deployment Lab
-
-**Includes:**
-
-* cloud VM
-* SSH
-* firewall
-* Nginx
-* systemd
-* SSL
-* deployment validation
-
----
-
-## Project 07 — Terraform Infrastructure Lab
-
-**Includes:**
-
-* Terraform project
-* provider
-* resources
-* variables
-* outputs
-* safe destroy
-
----
-
-## Project 08 — Monitoring and Security Stack
-
-**Includes:**
-
-* Prometheus
-* Node Exporter
-* Grafana
-* Uptime Kuma
-* Netdata comparison
-* Zabbix intro
-* alerts
-* security checklist
-
----
-
-# Documentation Rules
+# Documentation System
 
 For every lesson:
 
@@ -1658,22 +426,22 @@ notes.hy.md = Armenian learning version
 
 Each lesson should include:
 
-* badges
-* overview
-* learning objectives
-* commands learned
-* lab structure
-* practical commands used
-* detailed explanations
-* common mistakes
-* quick reference
-* validation
-* quiz review
-* quiz result
-* troubleshooting notes
-* Git workflow
-* what I learned
-* final status
+- badges
+- overview
+- learning objectives
+- commands learned
+- lab structure
+- practical commands used
+- detailed explanations
+- common mistakes
+- quick reference
+- validation
+- quiz review
+- quiz result
+- troubleshooting notes
+- Git workflow
+- what I learned
+- final status
 
 Final status format:
 
@@ -1690,7 +458,7 @@ After every completed lesson:
 ```bash
 cd ~/devops-labs
 git status
-git add .
+git add <lesson-folder> ROADMAP.md
 git commit -m "Clear professional commit message"
 git push
 git status
@@ -1706,36 +474,36 @@ nothing to commit, working tree clean
 
 # Current Progress Summary
 
-| #  | Lesson / Phase            | Status    |
-| -- | ------------------------- | --------- |
-| 00 | Setup                     | Completed |
-| 01 | Linux File System         | Completed |
-| 02 | Linux Paths               | Completed |
-| 03 | File Operations           | Completed |
-| 04 | Log Reading               | Completed |
-| 05 | Search and Filtering      | Completed |
-| 06 | Permissions and Ownership | Completed |
-| 07 | Users, Groups and sudo    | Completed |
-| 08 | Processes and Monitoring  | Completed |
-| 09 | Package Management        | Completed |
-| 10 | Linux Services Basics     | Completed |
-| 11 | Environment Variables     | Completed |
-| 12 | Linux Review Lab          | Completed |
-| 02.01 | Networking Basics       | Planned   |
+| # | Lesson / Phase | Status |
+|---|---|---|
+| 00 | Setup | ✅ Completed |
+| 01 | Linux File System | ✅ Completed |
+| 02 | Linux Paths | ✅ Completed |
+| 03 | File Operations | ✅ Completed |
+| 04 | Log Reading | ✅ Completed |
+| 05 | Search and Filtering | ✅ Completed |
+| 06 | Permissions and Ownership | ✅ Completed |
+| 07 | Users, Groups and sudo | ✅ Completed |
+| 08 | Processes and Monitoring | ✅ Completed |
+| 09 | Package Management | ✅ Completed |
+| 10 | Linux Services Basics | ✅ Completed |
+| 11 | Environment Variables | ✅ Completed |
+| 12 | Linux Review Lab | ✅ Completed |
+| 02.01 | Networking Basics | ⚪ Planned |
 
 ---
 
-## Roadmap Maintenance Rule
+# Roadmap Maintenance Rule
 
 `ROADMAP.md` is the source of truth for the full DevOps learning path.
 
 At the end of every completed lesson, update:
 
-* current lesson status
-* phase status if needed
-* lesson status inside the phase
-* Current Progress Summary
-* next lesson status when starting it
+- current lesson status
+- phase status if needed
+- lesson status inside the phase
+- Current Progress Summary
+- next lesson status when starting it
 
 Then commit the lesson folder and `ROADMAP.md` together.
 
@@ -1755,3 +523,15 @@ Expected final result:
 ```text
 nothing to commit, working tree clean
 ```
+
+---
+
+<div align="center">
+
+## 🚀 DevOps Roadmap Direction
+
+**Learn deeply. Practice hands-on. Document professionally. Build portfolio projects.**
+
+`Linux` → `Networking` → `Git` → `Bash` → `Databases` → `Nginx` → `Docker` → `CI/CD` → `Cloud` → `Terraform` → `Monitoring` → `Kubernetes`
+
+</div>
