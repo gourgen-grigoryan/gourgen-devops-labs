@@ -1,0 +1,3 @@
+HOME=/home/phantom
+USER=phantom
+SHELL=/bin/bash

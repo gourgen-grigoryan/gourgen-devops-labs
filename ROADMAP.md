@@ -15,9 +15,9 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 | Item                      | Value                                                          |
 | ------------------------- | -------------------------------------------------------------- |
 | Current Phase             | 01 — Linux Fundamentals                                        |
-| Current Lesson            | Lesson 11 — Environment Variables                              |
+| Current Lesson            | Lesson 12 — Linux Review Lab                                   |
 | Current Lesson Status     | Planned                                                        |
-| Recently Completed        | Lesson 10 — Linux Services Basics                              |
+| Recently Completed        | Lesson 11 — Environment Variables                              |
 | Main Repository Style     | Portfolio-ready DevOps learning repository                     |
 | English Notes             | `notes.md`                                                     |
 | Armenian Notes            | `notes.hy.md`                                                  |
@@ -292,7 +292,7 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ## Lesson 11 — Environment Variables
 
-**Status:** Planned
+**Status:** Completed
 
 **Topics:**
 
@@ -1719,7 +1719,8 @@ nothing to commit, working tree clean
 | 08 | Processes and Monitoring  | Completed |
 | 09 | Package Management        | Completed |
 | 10 | Linux Services Basics     | Completed |
-| 11 | Environment Variables     | Planned   |
+| 11 | Environment Variables     | Completed |
+| 12 | Linux Review Lab          | Planned   |
 
 ---
 
@@ -1742,8 +1743,8 @@ Example:
 ```bash
 cd ~/devops-labs
 git status
-git add 01-linux-basics/lesson-10-linux-services-basics ROADMAP.md
-git commit -m "Complete Linux services basics lesson"
+git add 01-linux-basics/lesson-11-environment-variables ROADMAP.md
+git commit -m "Complete Linux environment variables lesson"
 git push
 git status
 ```

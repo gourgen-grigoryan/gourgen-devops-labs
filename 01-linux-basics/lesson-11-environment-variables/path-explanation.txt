@@ -1,0 +1,5 @@
+PATH is a list of directories where Linux searches for executable commands.
+Example command paths:
+/usr/bin/ls
+/usr/bin/bash
+/usr/bin/systemctl

@@ -1,0 +1,11 @@
+Permanent environment variables can be added to ~/.bashrc.
+
+Example:
+
+export APP_ENV="dev"
+
+After editing ~/.bashrc, reload it with:
+
+source ~/.bashrc
+
+Important: Be careful when editing PATH or secrets in shell config files.

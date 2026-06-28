@@ -1,0 +1,1 @@
+Child shell after export sees MY_LESSON=Environment Variables

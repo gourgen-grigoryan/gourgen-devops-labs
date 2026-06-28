@@ -1,0 +1,1 @@
+Child shell before export sees MY_LESSON=

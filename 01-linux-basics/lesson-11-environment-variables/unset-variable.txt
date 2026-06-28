@@ -1,0 +1,1 @@
+After unset, MY_LESSON=
