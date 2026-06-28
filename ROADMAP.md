@@ -17,22 +17,28 @@
 
 ## 🧭 Roadmap Mission
 
-> A structured, hands-on DevOps roadmap focused on building real operational skills, strong troubleshooting habits, and a professional portfolio.
+> Build real DevOps skills through hands-on labs, clear documentation, troubleshooting practice, and portfolio-ready projects.
 
-<table>
-  <tr>
-    <td align="center"><strong>🎯 Learn</strong><br />Understand each concept clearly before moving forward.</td>
-    <td align="center"><strong>🧪 Practice</strong><br />Build hands-on labs with real terminal workflows.</td>
-    <td align="center"><strong>📝 Document</strong><br />Write clean English portfolio notes and Armenian learning notes.</td>
-    <td align="center"><strong>🚀 Showcase</strong><br />Turn every major phase into portfolio-ready proof of skill.</td>
-  </tr>
-</table>
+This roadmap is designed around four professional habits:
+
+- **🎯 Learn deeply** — understand each concept before moving forward.
+- **🧪 Practice hands-on** — validate every topic with real terminal labs.
+- **📝 Document professionally** — keep clean English portfolio notes and Armenian learning notes.
+- **🚀 Build portfolio proof** — turn each major phase into visible GitHub evidence.
 
 ### 🧩 Skill Path
 
-| Foundation | Core Engineering | Platform & Delivery | Production Operations |
-|---|---|---|---|
-| Linux Fundamentals<br />Networking Foundations | Git & GitHub<br />Bash Scripting<br />Databases<br />Nginx/systemd | Docker<br />CI/CD + GitOps<br />Cloud Infrastructure<br />Terraform | Monitoring/Security<br />Kubernetes<br />Professional Portfolio |
+**🏗️ Foundation Layer**  
+Linux Fundamentals → Networking Foundations
+
+**⚙️ Core Engineering Layer**  
+Git & GitHub → Bash Scripting → Databases → Nginx/systemd
+
+**🚢 Platform & Delivery Layer**  
+Docker → CI/CD + GitOps → Cloud Infrastructure → Terraform
+
+**🛡️ Production Operations Layer**  
+Monitoring/Security → Kubernetes → Professional Portfolio
 
 Every lesson is documented in two versions:
 
