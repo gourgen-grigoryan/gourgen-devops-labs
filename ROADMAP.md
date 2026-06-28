@@ -35,7 +35,7 @@ Linux Fundamentals → Networking Foundations
 Git & GitHub → Bash Scripting → Databases → Nginx/systemd
 
 **🚢 Platform & Delivery Layer**  
-Docker → CI/CD + GitOps → Cloud Infrastructure → Terraform
+Virtualization → Docker → CI/CD + GitOps → Cloud Infrastructure → Terraform
 
 **🛡️ Production Operations Layer**  
 Monitoring/Security → Kubernetes → Professional Portfolio
@@ -99,13 +99,14 @@ Every lesson is documented in two versions:
 | 04 | Bash Scripting | ⚪ Planned | Automation scripts |
 | 05 | Database Fundamentals for DevOps | ⚪ Planned | PostgreSQL operations and backups |
 | 06 | Nginx and systemd | ⚪ Planned | Web server + service management |
-| 07 | Docker | ⚪ Planned | Containerized application stack |
-| 08 | CI/CD Pipelines and GitOps | ⚪ Planned | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD |
-| 09 | Cloud Infrastructure | ⚪ Planned | VM deployment and cloud networking |
-| 10 | Terraform | ⚪ Planned | Infrastructure as Code |
-| 11 | Monitoring, Logging and Security | ⚪ Planned | Observability and hardening |
-| 12 | Kubernetes | ⚪ Planned | Container orchestration |
-| 13 | Professional Portfolio | ⚪ Planned | Final presentation and documentation site |
+| 07 | Virtualization and Virtual Machines | ⚪ Planned | Hypervisors, Proxmox, VMs, VM networking, snapshots, SSH |
+| 08 | Docker | ⚪ Planned | Containerized application stack |
+| 09 | CI/CD Pipelines and GitOps | ⚪ Planned | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD |
+| 10 | Cloud Infrastructure | ⚪ Planned | VM deployment and cloud networking |
+| 11 | Terraform | ⚪ Planned | Infrastructure as Code |
+| 12 | Monitoring, Logging and Security | ⚪ Planned | Observability and hardening |
+| 13 | Kubernetes | ⚪ Planned | Container orchestration |
+| 14 | Professional Portfolio | ⚪ Planned | Final presentation and documentation site |
 
 ---
 
@@ -136,15 +137,16 @@ flowchart TB
     P06["⚪ Phase 06<br/>Nginx + systemd"]:::planned
 
     L3["🚢 Platform & Delivery Layer"]:::layer
-    P07["⚪ Phase 07<br/>Docker"]:::planned
-    P08["⚪ Phase 08<br/>CI/CD + GitOps"]:::planned
-    P09["⚪ Phase 09<br/>Cloud Infrastructure"]:::planned
-    P10["⚪ Phase 10<br/>Terraform IaC"]:::planned
+    P07["⚪ Phase 07<br/>Virtualization"]:::planned
+    P08["⚪ Phase 08<br/>Docker"]:::planned
+    P09["⚪ Phase 09<br/>CI/CD + GitOps"]:::planned
+    P10["⚪ Phase 10<br/>Cloud Infrastructure"]:::planned
+    P11["⚪ Phase 11<br/>Terraform IaC"]:::planned
 
     L4["🛡️ Production Operations Layer"]:::layer
-    P11["⚪ Phase 11<br/>Monitoring + Security"]:::planned
-    P12["⚪ Phase 12<br/>Kubernetes"]:::planned
-    P13["⚪ Phase 13<br/>Professional Portfolio"]:::planned
+    P12["⚪ Phase 12<br/>Monitoring + Security"]:::planned
+    P13["⚪ Phase 13<br/>Kubernetes"]:::planned
+    P14["⚪ Phase 14<br/>Professional Portfolio"]:::planned
 
     Finish(["🏁 Production-Ready DevOps Portfolio"]):::project
 
@@ -153,10 +155,10 @@ flowchart TB
     P02 --> L2
     L2 --> P03 --> P04 --> P05 --> P06
     P06 --> L3
-    L3 --> P07 --> P08 --> P09 --> P10
-    P10 --> L4
-    L4 --> P11 --> P12 --> P13
-    P13 --> Finish
+    L3 --> P07 --> P08 --> P09 --> P10 --> P11
+    P11 --> L4
+    L4 --> P12 --> P13 --> P14
+    P14 --> Finish
 ```
 
 ### 🧩 Roadmap Layers
@@ -165,7 +167,7 @@ flowchart TB
 |---|---|---|
 | 🏗️ Foundation Layer | Workspace, Linux, networking fundamentals | 🟡 In Progress |
 | ⚙️ Core Engineering Layer | Git workflow, Bash automation, databases, Nginx/systemd | ⚪ Planned |
-| 🚢 Platform & Delivery Layer | Docker, CI/CD, cloud, Terraform | ⚪ Planned |
+| 🚢 Platform & Delivery Layer | Virtualization, Docker, CI/CD, cloud, Terraform | ⚪ Planned |
 | 🛡️ Production Operations Layer | Monitoring, security, Kubernetes, portfolio polish | ⚪ Planned |
 
 ---
@@ -179,13 +181,14 @@ flowchart TB
 - [Phase 04 — Bash Scripting](#phase-04--bash-scripting)
 - [Phase 05 — Database Fundamentals for DevOps](#phase-05--database-fundamentals-for-devops)
 - [Phase 06 — Nginx and systemd](#phase-06--nginx-and-systemd)
-- [Phase 07 — Docker](#phase-07--docker)
-- [Phase 08 — CI/CD Pipelines and GitOps](#phase-08--cicd-pipelines-and-gitops)
-- [Phase 09 — Cloud Infrastructure](#phase-09--cloud-infrastructure)
-- [Phase 10 — Terraform](#phase-10--terraform)
-- [Phase 11 — Monitoring, Logging and Security](#phase-11--monitoring-logging-and-security)
-- [Phase 12 — Kubernetes](#phase-12--kubernetes)
-- [Phase 13 — Professional Portfolio](#phase-13--professional-portfolio)
+- [Phase 07 — Virtualization and Virtual Machines](#phase-07--virtualization-and-virtual-machines)
+- [Phase 08 — Docker](#phase-08--docker)
+- [Phase 09 — CI/CD Pipelines and GitOps](#phase-09--cicd-pipelines-and-gitops)
+- [Phase 10 — Cloud Infrastructure](#phase-10--cloud-infrastructure)
+- [Phase 11 — Terraform](#phase-11--terraform)
+- [Phase 12 — Monitoring, Logging and Security](#phase-12--monitoring-logging-and-security)
+- [Phase 13 — Kubernetes](#phase-13--kubernetes)
+- [Phase 14 — Professional Portfolio](#phase-14--professional-portfolio)
 - [Final Portfolio Projects](#final-portfolio-projects)
 - [Documentation System](#documentation-system)
 - [Git Workflow Rule](#git-workflow-rule)
@@ -333,7 +336,26 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ---
 
-# Phase 07 — Docker
+# Phase 07 — Virtualization and Virtual Machines
+
+![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
+> This phase builds the foundation for understanding virtual machines, hypervisors, Proxmox, VM networking, snapshots and server-style Linux environments before Docker and Cloud.
+
+| # | Lesson | Status | Topics |
+|---:|---|---|---|
+| 01 | Virtualization Basics | ⚪ Planned | virtualization concept, VM, host, guest, hypervisor, Type 1 vs Type 2 |
+| 02 | VirtualBox, VMware, Hyper-V and Proxmox Basics | ⚪ Planned | create VM, ISO image, CPU/RAM/disk allocation, Proxmox VE basics, VM lifecycle |
+| 03 | Proxmox VE Basics | ⚪ Planned | Proxmox web UI, nodes, storage, Linux bridges, VM creation, console access |
+| 04 | Linux VM Setup | ⚪ Planned | Ubuntu Server VM, user setup, updates, packages, SSH preparation |
+| 05 | VM Networking Modes | ⚪ Planned | NAT, bridged adapter, host-only network, Linux bridge, port forwarding, IP checks |
+| 06 | Snapshots, Clones and Templates | ⚪ Planned | snapshots, rollback, clone, template, golden image concept |
+| 07 | VM Troubleshooting | ⚪ Planned | boot issues, network issues, SSH issues, disk/resource limits |
+| 08 | Virtualization Review Lab | ⚪ Planned | create Linux VM, verify network, connect by SSH, snapshot, Proxmox workflow documentation |
+
+---
+
+# Phase 08 — Docker
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
@@ -348,7 +370,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ---
 
-# Phase 08 — CI/CD Pipelines and GitOps
+# Phase 09 — CI/CD Pipelines and GitOps
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
@@ -374,7 +396,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ---
 
-# Phase 09 — Cloud Infrastructure
+# Phase 10 — Cloud Infrastructure
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
@@ -389,7 +411,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ---
 
-# Phase 10 — Terraform
+# Phase 11 — Terraform
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
@@ -403,7 +425,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ---
 
-# Phase 11 — Monitoring, Logging and Security
+# Phase 12 — Monitoring, Logging and Security
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
@@ -426,7 +448,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ---
 
-# Phase 12 — Kubernetes
+# Phase 13 — Kubernetes
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
@@ -441,7 +463,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ---
 
-# Phase 13 — Professional Portfolio
+# Phase 14 — Professional Portfolio
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
@@ -588,7 +610,7 @@ nothing to commit, working tree clean
 **Learn deeply. Practice hands-on. Document professionally. Build portfolio projects.**
 
 <p align="center">
-  <code>Linux</code> → <code>Networking</code> → <code>Git</code> → <code>Bash</code> → <code>Databases</code> → <code>Nginx</code> → <code>Docker</code> → <code>CI/CD</code> → <code>Cloud</code> → <code>Terraform</code> →<br />
+  <code>Linux</code> → <code>Networking</code> → <code>Git</code> → <code>Bash</code> → <code>Databases</code> → <code>Nginx</code> → <code>Virtualization</code> → <code>Docker</code> → <code>CI/CD</code> → <code>Cloud</code> → <code>Terraform</code> →<br />
   <code>Monitoring</code> → <code>Kubernetes</code>
 </p>
 
