@@ -21,9 +21,10 @@ This repository is a structured, hands-on DevOps learning roadmap focused on bui
 
 The goal is not only to learn commands, but to build a professional portfolio that demonstrates practical ability in:
 
-```text
-Linux → Networking → Git → Bash → Databases → Nginx/systemd → Docker → CI/CD → Cloud → Terraform → Monitoring/Security → Kubernetes → Portfolio
-```
+<p align="center">
+  <strong>Linux</strong> → <strong>Networking</strong> → <strong>Git</strong> → <strong>Bash</strong> → <strong>Databases</strong> → <strong>Nginx/systemd</strong> → <strong>Docker</strong> → <strong>CI/CD</strong> → <strong>Cloud</strong> → <strong>Terraform</strong> → <strong>Monitoring/Security</strong> →<br />
+  <strong>Kubernetes</strong> → <strong>Portfolio</strong>
+</p>
 
 Every lesson is documented in two versions:
 
@@ -572,6 +573,9 @@ nothing to commit, working tree clean
 
 **Learn deeply. Practice hands-on. Document professionally. Build portfolio projects.**
 
-`Linux` → `Networking` → `Git` → `Bash` → `Databases` → `Nginx` → `Docker` → `CI/CD` → `Cloud` → `Terraform` → `Monitoring` → `Kubernetes`
+<p align="center">
+  <code>Linux</code> → <code>Networking</code> → <code>Git</code> → <code>Bash</code> → <code>Databases</code> → <code>Nginx</code> → <code>Docker</code> → <code>CI/CD</code> → <code>Cloud</code> → <code>Terraform</code> →<br />
+  <code>Monitoring</code> → <code>Kubernetes</code>
+</p>
 
 </div>
