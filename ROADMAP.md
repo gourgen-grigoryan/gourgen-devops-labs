@@ -96,60 +96,62 @@ Every lesson is documented in two versions:
 
 ## ⚡ Visual Learning Flow
 
-> A cleaner staged roadmap view for GitHub.  
-> Completed work is marked in green, the current phase is highlighted in blue, and future phases remain neutral.
+> GitHub-friendly roadmap diagram with clean layer cards.  
+> Arrows connect only between cards, so they do not cross section titles or text.
 
 ```mermaid
 flowchart TB
     classDef completed fill:#1f883d,stroke:#2ea043,color:#ffffff,stroke-width:2px
     classDef current fill:#0969da,stroke:#58a6ff,color:#ffffff,stroke-width:3px
     classDef planned fill:#30363d,stroke:#8b949e,color:#f0f6fc,stroke-width:1.5px
+    classDef layer fill:#0d1117,stroke:#f78166,color:#f0f6fc,stroke-width:2px
     classDef project fill:#8250df,stroke:#a371f7,color:#ffffff,stroke-width:2px
 
     Start(["🚀 DevOps Learning Roadmap"]):::project
 
-    subgraph Foundation["Foundation Layer"]
-        P00["✅ Phase 00<br/>Setup & Workspace"]:::completed
-        P01["✅ Phase 01<br/>Linux Fundamentals"]:::completed
-        P02["🟡 Phase 02<br/>Networking Foundations"]:::current
-    end
+    L1["🏗️ Foundation Layer"]:::layer
+    P00["✅ Phase 00<br/>Setup & Workspace"]:::completed
+    P01["✅ Phase 01<br/>Linux Fundamentals"]:::completed
+    P02["🟡 Phase 02<br/>Networking Foundations"]:::current
 
-    subgraph Core["Core Engineering Layer"]
-        P03["⚪ Phase 03<br/>Git & GitHub"]:::planned
-        P04["⚪ Phase 04<br/>Bash Scripting"]:::planned
-        P05["⚪ Phase 05<br/>Database Fundamentals"]:::planned
-        P06["⚪ Phase 06<br/>Nginx + systemd"]:::planned
-    end
+    L2["⚙️ Core Engineering Layer"]:::layer
+    P03["⚪ Phase 03<br/>Git & GitHub"]:::planned
+    P04["⚪ Phase 04<br/>Bash Scripting"]:::planned
+    P05["⚪ Phase 05<br/>Database Fundamentals"]:::planned
+    P06["⚪ Phase 06<br/>Nginx + systemd"]:::planned
 
-    subgraph Platform["Platform & Delivery Layer"]
-        P07["⚪ Phase 07<br/>Docker"]:::planned
-        P08["⚪ Phase 08<br/>CI/CD + GitOps"]:::planned
-        P09["⚪ Phase 09<br/>Cloud Infrastructure"]:::planned
-        P10["⚪ Phase 10<br/>Terraform IaC"]:::planned
-    end
+    L3["🚢 Platform & Delivery Layer"]:::layer
+    P07["⚪ Phase 07<br/>Docker"]:::planned
+    P08["⚪ Phase 08<br/>CI/CD + GitOps"]:::planned
+    P09["⚪ Phase 09<br/>Cloud Infrastructure"]:::planned
+    P10["⚪ Phase 10<br/>Terraform IaC"]:::planned
 
-    subgraph Operations["Production Operations Layer"]
-        P11["⚪ Phase 11<br/>Monitoring + Security"]:::planned
-        P12["⚪ Phase 12<br/>Kubernetes"]:::planned
-        P13["⚪ Phase 13<br/>Professional Portfolio"]:::planned
-    end
+    L4["🛡️ Production Operations Layer"]:::layer
+    P11["⚪ Phase 11<br/>Monitoring + Security"]:::planned
+    P12["⚪ Phase 12<br/>Kubernetes"]:::planned
+    P13["⚪ Phase 13<br/>Professional Portfolio"]:::planned
 
     Finish(["🏁 Production-Ready DevOps Portfolio"]):::project
 
-    Start --> P00 --> P01 --> P02
-    P02 --> P03 --> P04 --> P05 --> P06
-    P06 --> P07 --> P08 --> P09 --> P10
-    P10 --> P11 --> P12 --> P13 --> Finish
+    Start --> L1
+    L1 --> P00 --> P01 --> P02
+    P02 --> L2
+    L2 --> P03 --> P04 --> P05 --> P06
+    P06 --> L3
+    L3 --> P07 --> P08 --> P09 --> P10
+    P10 --> L4
+    L4 --> P11 --> P12 --> P13
+    P13 --> Finish
 ```
 
 ### 🧩 Roadmap Layers
 
 | Layer | Purpose | Status |
 |---|---|---|
-| Foundation Layer | Workspace, Linux, networking fundamentals | 🟡 In Progress |
-| Core Engineering Layer | Git workflow, Bash automation, databases, Nginx/systemd | ⚪ Planned |
-| Platform & Delivery Layer | Docker, CI/CD, cloud, Terraform | ⚪ Planned |
-| Production Operations Layer | Monitoring, security, Kubernetes, portfolio polish | ⚪ Planned |
+| 🏗️ Foundation Layer | Workspace, Linux, networking fundamentals | 🟡 In Progress |
+| ⚙️ Core Engineering Layer | Git workflow, Bash automation, databases, Nginx/systemd | ⚪ Planned |
+| 🚢 Platform & Delivery Layer | Docker, CI/CD, cloud, Terraform | ⚪ Planned |
+| 🛡️ Production Operations Layer | Monitoring, security, Kubernetes, portfolio polish | ⚪ Planned |
 
 ---
 
