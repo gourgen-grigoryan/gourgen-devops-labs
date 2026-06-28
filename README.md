@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/devops-labs-banner.svg" alt="Gourgen DevOps Labs Banner" width="100%" />
+</p>
+
 <div align="center">
 
 # 🚀 Gourgen DevOps Labs
