@@ -1,0 +1,16 @@
+● cron.service - Regular background program processing daemon
+     Loaded: loaded (/usr/lib/systemd/system/cron.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-06-28 05:00:12 +04; 15s ago
+ Invocation: 84f2eed4242a4c8bb152be917c69806e
+       Docs: man:cron(8)
+   Main PID: 3902 (cron)
+      Tasks: 1 (limit: 9386)
+     Memory: 372K (peak: 2M)
+        CPU: 22ms
+     CGroup: /system.slice/cron.service
+             └─3902 /usr/sbin/cron -f -P
+
+Jun 28 05:00:12 DESKTOP-LTJUSR0 systemd[1]: Started cron.service - Regular background program processing daemon.
+Jun 28 05:00:12 DESKTOP-LTJUSR0 (cron)[3902]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jun 28 05:00:12 DESKTOP-LTJUSR0 cron[3902]: (CRON) INFO (pidfile fd = 3)
+Jun 28 05:00:12 DESKTOP-LTJUSR0 cron[3902]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
