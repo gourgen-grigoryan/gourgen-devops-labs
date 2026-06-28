@@ -201,6 +201,8 @@ flowchart TB
 
 ![Status](https://img.shields.io/badge/phase-completed-brightgreen)
 
+> This phase establishes the local DevOps workspace, WSL/Linux environment, Git configuration and GitHub connection needed for all future labs.
+
 <details open>
 <summary><strong>✅ Lesson 00.01 — Local Workspace Setup</strong></summary>
 
@@ -227,8 +229,7 @@ flowchart TB
 
 ![Status](https://img.shields.io/badge/phase-completed-brightgreen)
 
-> ✅ Phase 01 is fully completed.  
-> This phase builds the Linux foundation required for real DevOps work.
+> This phase builds the Linux administration and troubleshooting foundation required for real DevOps work.
 
 | # | Lesson | Status | Core Skills |
 |---:|---|---|---|
@@ -261,8 +262,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ![Status](https://img.shields.io/badge/phase-in%20progress-yellow)
 
-> 🟡 Current phase.  
-> This phase builds the networking foundation needed for servers, cloud, Docker, Kubernetes, firewalls, DNS, and troubleshooting.
+> This phase builds the networking foundation needed for servers, cloud infrastructure, Docker, Kubernetes, firewalls, DNS and troubleshooting.
 
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
@@ -280,6 +280,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
+> This phase teaches professional version control habits, branching, remote repositories, pull requests and Git troubleshooting workflows.
+
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
 | 01 | Git Fundamentals | ⚪ Planned | repository, working tree, staging area, commits, `git status`, `git add`, `git commit`, `git log` |
@@ -294,6 +296,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 # Phase 04 — Bash Scripting
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
+> This phase develops shell scripting and automation skills for repeatable DevOps tasks, validation scripts and operational tooling.
 
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
@@ -310,6 +314,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
+> This phase introduces database operations from a DevOps perspective, including SQL basics, PostgreSQL setup, permissions, backups and restore workflows.
+
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
 | 01 | SQL Basics | ⚪ Planned | database, table, row, column, SELECT, INSERT, UPDATE, DELETE |
@@ -324,6 +330,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 # Phase 06 — Nginx and systemd
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
+> This phase focuses on web server operations, reverse proxy configuration, Linux service management and HTTPS deployment foundations.
 
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
@@ -359,6 +367,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
+> This phase builds the containerization foundation needed for packaging applications, running isolated environments and preparing for CI/CD and cloud deployments.
+
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
 | 01 | Docker Basics | ⚪ Planned | container, image, Dockerfile, registry, Docker Hub, lifecycle |
@@ -374,7 +384,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
-> This phase covers the most important CI/CD tools for DevOps engineers: **GitHub Actions, GitLab CI/CD, Jenkins, and Argo CD**.
+> This phase teaches automated validation, build and deployment workflows using GitHub Actions, GitLab CI/CD, Jenkins and Argo CD.
 
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
@@ -400,6 +410,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
+> This phase introduces cloud infrastructure fundamentals, virtual machines, SSH access, cloud networking, firewall rules, deployment safety and cost awareness.
+
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
 | 01 | Cloud Basics | ⚪ Planned | provider, regions, zones, compute, storage, network, billing awareness |
@@ -415,6 +427,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
+> This phase teaches Infrastructure as Code with Terraform, including providers, resources, state, variables, outputs and safe provisioning workflows.
+
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
 | 01 | Infrastructure as Code | ⚪ Planned | IaC, Terraform basics, providers, resources, state |
@@ -428,6 +442,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 # Phase 12 — Monitoring, Logging and Security
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
+> This phase focuses on observability and hardening through metrics, logs, dashboards, alerts, monitoring tools and basic security practices.
 
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
@@ -452,6 +468,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
 
+> This phase introduces Kubernetes fundamentals, kubectl workflows, deployments, services, configuration and troubleshooting basics.
+
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
 | 01 | Kubernetes Basics | ⚪ Planned | cluster, node, pod, deployment, service, namespace |
@@ -466,6 +484,8 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 # Phase 14 — Professional Portfolio
 
 ![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+
+> This phase turns the completed labs into a polished DevOps portfolio with clean documentation, diagrams, final projects, resume bullets and GitHub presentation.
 
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
