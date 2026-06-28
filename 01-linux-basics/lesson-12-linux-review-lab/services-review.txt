@@ -1,0 +1,46 @@
+PID 1:
+systemd
+
+systemctl version:
+systemd 259 (259.5-0ubuntu3)
++PAM +AUDIT +SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF -XKBCOMMON -UTMP +SYSVINIT +LIBARCHIVE
+
+Running services sample:
+  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION
+  chrony.service              loaded active running chrony, an NTP client/server
+  cron.service                loaded active running Regular background program processing daemon
+  dbus.service                loaded active running D-Bus System Message Bus
+  getty@tty1.service          loaded active running Getty on tty1
+  networkd-dispatcher.service loaded active running Dispatcher daemon for systemd-networkd
+  packagekit.service          loaded active running PackageKit Daemon
+  polkit.service              loaded active running Authorization Manager
+  rsyslog.service             loaded active running System Logging Service
+  systemd-journald.service    loaded active running Journal Service
+  systemd-logind.service      loaded active running User Login Management
+  systemd-resolved.service    loaded active running Network Name Resolution
+  systemd-udevd.service       loaded active running Rule-based Manager for Device Events and Files
+  unattended-upgrades.service loaded active running Unattended Upgrades Shutdown
+  user@1000.service           loaded active running User Manager for UID 1000
+  wsl-pro.service             loaded active running Bridge to Ubuntu Pro agent on Windows
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+Cron active state:
+active
+
+Cron enabled state:
+enabled
+
+Cron logs sample:
+Jun 28 05:00:12 DESKTOP-LTJUSR0 systemd[1]: Stopping cron.service - Regular background program processing daemon...
+Jun 28 05:00:12 DESKTOP-LTJUSR0 systemd[1]: cron.service: Deactivated successfully.
+Jun 28 05:00:12 DESKTOP-LTJUSR0 systemd[1]: Stopped cron.service - Regular background program processing daemon.
+Jun 28 05:00:12 DESKTOP-LTJUSR0 systemd[1]: Started cron.service - Regular background program processing daemon.
+Jun 28 05:00:12 DESKTOP-LTJUSR0 (cron)[3902]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jun 28 05:00:12 DESKTOP-LTJUSR0 cron[3902]: (CRON) INFO (pidfile fd = 3)
+Jun 28 05:00:12 DESKTOP-LTJUSR0 cron[3902]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Jun 28 05:17:01 DESKTOP-LTJUSR0 CRON[4741]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jun 28 05:17:01 DESKTOP-LTJUSR0 CRON[4743]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jun 28 05:17:01 DESKTOP-LTJUSR0 CRON[4741]: pam_unix(cron:session): session closed for user root

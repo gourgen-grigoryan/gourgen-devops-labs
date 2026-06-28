@@ -1,0 +1,10 @@
+Permissions:
+total 8
+-rwxr-xr-x 1 phantom phantom 35 Jun 28 05:41 health-check.sh
+-rw------- 1 phantom phantom 39 Jun 28 05:41 secret.env
+
+Run script:
+Health check OK
+
+Secret file permission should be 600:
+600 permissions-demo/secret.env

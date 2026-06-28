@@ -1,0 +1,60 @@
+Current directory:
+/home/phantom/devops-labs/01-linux-basics/lesson-12-linux-review-lab
+
+Home directory:
+/home/phantom
+
+Root directory sample:
+bin
+boot
+dev
+etc
+home
+init
+lib
+lib64
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+snap
+srv
+sys
+tmp
+usr
+var
+
+/etc sample:
+PackageKit
+X11
+adduser.conf
+alternatives
+apparmor
+apparmor.d
+apport
+apt
+bash.bashrc
+bash_completion
+
+/var sample:
+backups
+cache
+crash
+lib
+local
+lock
+log
+mail
+opt
+run
+
+/tmp sample:
+snap-private-tmp
+systemd-private-877f61b616b74d67adc1bce9dcf5d5d8-chrony.service-E1nSgq
+systemd-private-877f61b616b74d67adc1bce9dcf5d5d8-polkit.service-4t0flj
+systemd-private-877f61b616b74d67adc1bce9dcf5d5d8-systemd-logind.service-RscNYq
+systemd-private-877f61b616b74d67adc1bce9dcf5d5d8-wsl-pro.service-62s2Hv

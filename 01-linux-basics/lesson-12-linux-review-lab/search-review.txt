@@ -1,0 +1,17 @@
+Find ERROR lines:
+ERROR database connection failed
+
+Find error case-insensitive:
+ERROR database connection failed
+
+Find ERROR with line numbers:
+3:ERROR database connection failed
+
+Show lines without INFO:
+Linux review lab
+ERROR database connection failed
+WARN disk usage high
+
+Find all .log files:
+./review-files/app.log
+./review-files/archive/app-archived.log

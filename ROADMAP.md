@@ -14,10 +14,10 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 | Item                      | Value                                                          |
 | ------------------------- | -------------------------------------------------------------- |
-| Current Phase             | 01 — Linux Fundamentals                                        |
-| Current Lesson            | Lesson 12 — Linux Review Lab                                   |
+| Current Phase             | 02 — Networking with CCNA-Level Foundations                    |
+| Current Lesson            | Lesson 01 — Networking Basics                                  |
 | Current Lesson Status     | Planned                                                        |
-| Recently Completed        | Lesson 11 — Environment Variables                              |
+| Recently Completed        | Lesson 12 — Linux Review Lab                                   |
 | Main Repository Style     | Portfolio-ready DevOps learning repository                     |
 | English Notes             | `notes.md`                                                     |
 | Armenian Notes            | `notes.hy.md`                                                  |
@@ -41,8 +41,8 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 | Phase | Topic                                  | Status      |
 | ----- | -------------------------------------- | ----------- |
 | 00    | Setup and Local DevOps Workspace       | Completed   |
-| 01    | Linux Fundamentals                     | In Progress |
-| 02    | Networking with CCNA-Level Foundations | Planned     |
+| 01    | Linux Fundamentals                     | Completed   |
+| 02    | Networking with CCNA-Level Foundations | In Progress |
 | 03    | Git and GitHub Workflows               | Planned     |
 | 04    | Bash Scripting                         | Planned     |
 | 05    | Database Fundamentals for DevOps       | Planned     |
@@ -103,7 +103,7 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 # Phase 01 — Linux Fundamentals
 
-![Status](https://img.shields.io/badge/phase-in%20progress-yellow)
+![Status](https://img.shields.io/badge/phase-completed-brightgreen)
 
 ## Lesson 01 — Linux File System
 
@@ -309,7 +309,7 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ## Lesson 12 — Linux Review Lab
 
-**Status:** Planned
+**Status:** Completed
 
 **Topics:**
 
@@ -331,7 +331,7 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 # Phase 02 — Networking with CCNA-Level Foundations
 
-![Status](https://img.shields.io/badge/phase-planned-lightgrey)
+![Status](https://img.shields.io/badge/phase-in%20progress-yellow)
 
 ## Lesson 01 — Networking Basics
 
@@ -1720,7 +1720,8 @@ nothing to commit, working tree clean
 | 09 | Package Management        | Completed |
 | 10 | Linux Services Basics     | Completed |
 | 11 | Environment Variables     | Completed |
-| 12 | Linux Review Lab          | Planned   |
+| 12 | Linux Review Lab          | Completed |
+| 02.01 | Networking Basics       | Planned   |
 
 ---
 
@@ -1743,8 +1744,8 @@ Example:
 ```bash
 cd ~/devops-labs
 git status
-git add 01-linux-basics/lesson-11-environment-variables ROADMAP.md
-git commit -m "Complete Linux environment variables lesson"
+git add 01-linux-basics/lesson-12-linux-review-lab ROADMAP.md
+git commit -m "Complete Linux fundamentals review lab"
 git push
 git status
 ```

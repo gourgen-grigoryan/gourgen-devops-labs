@@ -1,0 +1,19 @@
+Full log:
+Linux review lab
+INFO app started
+ERROR database connection failed
+INFO retrying connection
+WARN disk usage high
+
+First 3 lines:
+Linux review lab
+INFO app started
+ERROR database connection failed
+
+Last 3 lines:
+ERROR database connection failed
+INFO retrying connection
+WARN disk usage high
+
+Line count:
+5 review-files/app.log

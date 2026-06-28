@@ -1,0 +1,17 @@
+Current user:
+phantom
+
+User and group IDs:
+uid=1000(phantom) gid=1000(phantom) groups=1000(phantom),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+
+Groups:
+phantom adm cdrom sudo dip plugdev users
+
+Sudo check:
+sudo access OK
+
+User entry:
+phantom:x:1000:1000::/home/phantom:/bin/bash
+
+Primary group entry:
+phantom:x:1000:

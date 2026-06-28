@@ -1,0 +1,25 @@
+PWD:
+/home/phantom/devops-labs/01-linux-basics/lesson-12-linux-review-lab
+
+Absolute path to this lesson:
+/home/phantom/devops-labs/01-linux-basics/lesson-12-linux-review-lab
+
+Parent directory:
+/home/phantom/devops-labs/01-linux-basics
+
+Home shortcut:
+/home/phantom
+
+List parent directory:
+lesson-01-filesystem
+lesson-02-paths
+lesson-03-file-operations
+lesson-04-log-reading
+lesson-05-search-filtering
+lesson-06-permissions-ownership
+lesson-07-users-groups-sudo
+lesson-08-processes-monitoring
+lesson-09-package-management
+lesson-10-linux-services-basics
+lesson-11-environment-variables
+lesson-12-linux-review-lab

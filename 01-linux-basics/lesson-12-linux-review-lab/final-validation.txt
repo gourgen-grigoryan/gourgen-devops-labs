@@ -1,0 +1,71 @@
+Final Linux Review Lab Validation
+=================================
+
+Current path:
+/home/phantom/devops-labs/01-linux-basics/lesson-12-linux-review-lab
+
+Files:
+total 68
+drwxr-xr-x  4 phantom phantom 4096 Jun 28 05:42 .
+drwxr-xr-x 14 phantom phantom 4096 Jun 28 05:36 ..
+-rw-r--r--  1 phantom phantom 3239 Jun 28 05:43 environment-review.txt
+-rw-r--r--  1 phantom phantom  351 Jun 28 05:40 file-operations-review.txt
+-rw-r--r--  1 phantom phantom  753 Jun 28 05:38 filesystem-review.txt
+-rw-r--r--  1 phantom phantom  160 Jun 28 05:43 final-validation.txt
+-rw-r--r--  1 phantom phantom  336 Jun 28 05:40 logs-review.txt
+-rw-r--r--  1 phantom phantom    0 Jun 28 05:37 notes.hy.md
+-rw-r--r--  1 phantom phantom    0 Jun 28 05:37 notes.md
+-rw-r--r--  1 phantom phantom  621 Jun 28 05:42 packages-review.txt
+-rw-r--r--  1 phantom phantom  612 Jun 28 05:38 paths-review.txt
+drwxr-xr-x  2 phantom phantom 4096 Jun 28 05:41 permissions-demo
+-rw-r--r--  1 phantom phantom  238 Jun 28 05:41 permissions-review.txt
+-rw-r--r--  1 phantom phantom 2693 Jun 28 05:42 processes-review.txt
+drwxr-xr-x  3 phantom phantom 4096 Jun 28 05:40 review-files
+-rw-r--r--  1 phantom phantom    5 Jun 28 05:42 review-process.pid
+-rw-r--r--  1 phantom phantom  362 Jun 28 05:40 search-review.txt
+-rw-r--r--  1 phantom phantom 3045 Jun 28 05:43 services-review.txt
+-rw-r--r--  1 phantom phantom  331 Jun 28 05:42 users-review.txt
+
+Directory tree:
+.
+|-- environment-review.txt
+|-- file-operations-review.txt
+|-- filesystem-review.txt
+|-- final-validation.txt
+|-- logs-review.txt
+|-- notes.hy.md
+|-- notes.md
+|-- packages-review.txt
+|-- paths-review.txt
+|-- permissions-demo
+|   |-- health-check.sh
+|   `-- secret.env
+|-- permissions-review.txt
+|-- processes-review.txt
+|-- review-files
+|   |-- app.log
+|   `-- archive
+|       `-- app-archived.log
+|-- review-process.pid
+|-- search-review.txt
+|-- services-review.txt
+`-- users-review.txt
+
+4 directories, 19 files
+
+Review files created:
+environment-review.txt
+file-operations-review.txt
+filesystem-review.txt
+final-validation.txt
+logs-review.txt
+packages-review.txt
+paths-review.txt
+permissions-review.txt
+processes-review.txt
+search-review.txt
+services-review.txt
+users-review.txt
+
+Git status:
+?? 01-linux-basics/lesson-12-linux-review-lab/
