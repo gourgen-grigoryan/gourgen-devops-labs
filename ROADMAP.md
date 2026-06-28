@@ -96,22 +96,60 @@ Every lesson is documented in two versions:
 
 ## ⚡ Visual Learning Flow
 
+> A cleaner staged roadmap view for GitHub.  
+> Completed work is marked in green, the current phase is highlighted in blue, and future phases remain neutral.
+
 ```mermaid
-flowchart LR
-    A[00 Setup] --> B[01 Linux]
-    B --> C[02 Networking]
-    C --> D[03 Git/GitHub]
-    D --> E[04 Bash]
-    E --> F[05 Databases]
-    F --> G[06 Nginx + systemd]
-    G --> H[07 Docker]
-    H --> I[08 CI/CD + GitOps]
-    I --> J[09 Cloud]
-    J --> K[10 Terraform]
-    K --> L[11 Monitoring + Security]
-    L --> M[12 Kubernetes]
-    M --> N[13 Professional Portfolio]
+flowchart TB
+    classDef completed fill:#1f883d,stroke:#2ea043,color:#ffffff,stroke-width:2px
+    classDef current fill:#0969da,stroke:#58a6ff,color:#ffffff,stroke-width:3px
+    classDef planned fill:#30363d,stroke:#8b949e,color:#f0f6fc,stroke-width:1.5px
+    classDef project fill:#8250df,stroke:#a371f7,color:#ffffff,stroke-width:2px
+
+    Start(["🚀 DevOps Learning Roadmap"]):::project
+
+    subgraph Foundation["Foundation Layer"]
+        P00["✅ Phase 00<br/>Setup & Workspace"]:::completed
+        P01["✅ Phase 01<br/>Linux Fundamentals"]:::completed
+        P02["🟡 Phase 02<br/>Networking Foundations"]:::current
+    end
+
+    subgraph Core["Core Engineering Layer"]
+        P03["⚪ Phase 03<br/>Git & GitHub"]:::planned
+        P04["⚪ Phase 04<br/>Bash Scripting"]:::planned
+        P05["⚪ Phase 05<br/>Database Fundamentals"]:::planned
+        P06["⚪ Phase 06<br/>Nginx + systemd"]:::planned
+    end
+
+    subgraph Platform["Platform & Delivery Layer"]
+        P07["⚪ Phase 07<br/>Docker"]:::planned
+        P08["⚪ Phase 08<br/>CI/CD + GitOps"]:::planned
+        P09["⚪ Phase 09<br/>Cloud Infrastructure"]:::planned
+        P10["⚪ Phase 10<br/>Terraform IaC"]:::planned
+    end
+
+    subgraph Operations["Production Operations Layer"]
+        P11["⚪ Phase 11<br/>Monitoring + Security"]:::planned
+        P12["⚪ Phase 12<br/>Kubernetes"]:::planned
+        P13["⚪ Phase 13<br/>Professional Portfolio"]:::planned
+    end
+
+    Finish(["🏁 Production-Ready DevOps Portfolio"]):::project
+
+    Start --> P00 --> P01 --> P02
+    P02 --> P03 --> P04 --> P05 --> P06
+    P06 --> P07 --> P08 --> P09 --> P10
+    P10 --> P11 --> P12 --> P13 --> Finish
 ```
+
+### 🧩 Roadmap Layers
+
+| Layer | Purpose | Status |
+|---|---|---|
+| Foundation Layer | Workspace, Linux, networking fundamentals | 🟡 In Progress |
+| Core Engineering Layer | Git workflow, Bash automation, databases, Nginx/systemd | ⚪ Planned |
+| Platform & Delivery Layer | Docker, CI/CD, cloud, Terraform | ⚪ Planned |
+| Production Operations Layer | Monitoring, security, Kubernetes, portfolio polish | ⚪ Planned |
 
 ---
 
