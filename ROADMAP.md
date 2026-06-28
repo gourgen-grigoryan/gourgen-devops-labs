@@ -17,14 +17,22 @@
 
 ## 🧭 Roadmap Mission
 
-This repository is a structured, hands-on DevOps learning roadmap focused on building real operational skills.
+> A structured, hands-on DevOps roadmap focused on building real operational skills, strong troubleshooting habits, and a professional portfolio.
 
-The goal is not only to learn commands, but to build a professional portfolio that demonstrates practical ability in:
+<table>
+  <tr>
+    <td align="center"><strong>🎯 Learn</strong><br />Understand each concept clearly before moving forward.</td>
+    <td align="center"><strong>🧪 Practice</strong><br />Build hands-on labs with real terminal workflows.</td>
+    <td align="center"><strong>📝 Document</strong><br />Write clean English portfolio notes and Armenian learning notes.</td>
+    <td align="center"><strong>🚀 Showcase</strong><br />Turn every major phase into portfolio-ready proof of skill.</td>
+  </tr>
+</table>
 
-<p align="center">
-  <strong>Linux</strong> → <strong>Networking</strong> → <strong>Git</strong> → <strong>Bash</strong> → <strong>Databases</strong> → <strong>Nginx/systemd</strong> → <strong>Docker</strong> → <strong>CI/CD</strong> → <strong>Cloud</strong> → <strong>Terraform</strong> → <strong>Monitoring/Security</strong> →<br />
-  <strong>Kubernetes</strong> → <strong>Portfolio</strong>
-</p>
+### 🧩 Skill Path
+
+| Foundation | Core Engineering | Platform & Delivery | Production Operations |
+|---|---|---|---|
+| Linux Fundamentals<br />Networking Foundations | Git & GitHub<br />Bash Scripting<br />Databases<br />Nginx/systemd | Docker<br />CI/CD + GitOps<br />Cloud Infrastructure<br />Terraform | Monitoring/Security<br />Kubernetes<br />Professional Portfolio |
 
 Every lesson is documented in two versions:
 
