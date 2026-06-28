@@ -15,8 +15,9 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 | Item                      | Value                                                          |
 | ------------------------- | -------------------------------------------------------------- |
 | Current Phase             | 01 — Linux Fundamentals                                        |
-| Current Lesson            | Lesson 08 — Processes and System Monitoring                    |
-| Current Lesson Status     | In Progress                                                    |
+| Current Lesson            | Lesson 09 — Package Management                                 |
+| Current Lesson Status     | Planned                                                        |
+| Recently Completed        | Lesson 08 — Processes and System Monitoring                    |
 | Main Repository Style     | Portfolio-ready DevOps learning repository                     |
 | English Notes             | `notes.md`                                                     |
 | Armenian Notes            | `notes.hy.md`                                                  |
@@ -234,7 +235,7 @@ A structured, hands-on DevOps learning roadmap focused on Linux, networking, aut
 
 ## Lesson 08 — Processes and System Monitoring
 
-**Status:** In Progress
+**Status:** Completed
 
 **Topics:**
 
@@ -1705,17 +1706,18 @@ nothing to commit, working tree clean
 
 # Current Progress Summary
 
-| #  | Lesson / Phase            | Status      |
-| -- | ------------------------- | ----------- |
-| 00 | Setup                     | Completed   |
-| 01 | Linux File System         | Completed   |
-| 02 | Linux Paths               | Completed   |
-| 03 | File Operations           | Completed   |
-| 04 | Log Reading               | Completed   |
-| 05 | Search and Filtering      | Completed   |
-| 06 | Permissions and Ownership | Completed   |
-| 07 | Users, Groups and sudo    | Completed   |
-| 08 | Processes and Monitoring  | In Progress |
+| #  | Lesson / Phase            | Status    |
+| -- | ------------------------- | --------- |
+| 00 | Setup                     | Completed |
+| 01 | Linux File System         | Completed |
+| 02 | Linux Paths               | Completed |
+| 03 | File Operations           | Completed |
+| 04 | Log Reading               | Completed |
+| 05 | Search and Filtering      | Completed |
+| 06 | Permissions and Ownership | Completed |
+| 07 | Users, Groups and sudo    | Completed |
+| 08 | Processes and Monitoring  | Completed |
+| 09 | Package Management        | Planned   |
 
 ---
 
