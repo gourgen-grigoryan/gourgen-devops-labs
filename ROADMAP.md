@@ -395,15 +395,6 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 | 05 | Argo CD and GitOps | ⚪ Planned | GitOps, desired state, Kubernetes sync, Argo CD UI, rollback |
 | 06 | CI/CD Pipeline Portfolio Lab | ⚪ Planned | tool comparison, automated validation, build/deploy simulation, GitOps concept |
 
-## 🔁 CI/CD Tool Learning Order
-
-```text
-1. GitHub Actions  → GitHub-native CI/CD foundation
-2. GitLab CI/CD    → full DevOps platform pipelines
-3. Jenkins         → enterprise CI/CD and Jenkinsfile workflows
-4. Argo CD         → GitOps deployment model for Kubernetes
-```
-
 ---
 
 # Phase 10 — Cloud Infrastructure
