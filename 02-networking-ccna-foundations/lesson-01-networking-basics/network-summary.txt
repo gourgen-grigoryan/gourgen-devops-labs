@@ -1,0 +1,28 @@
+# Networking Basics Summary
+
+A network connects devices so they can exchange data.
+
+LAN means Local Area Network. It is used inside a home, office or local environment.
+
+WAN means Wide Area Network. The Internet is the largest public WAN.
+
+A client sends requests. A server receives requests and returns responses.
+
+An IP address identifies a device on a network.
+
+A gateway is the exit point used to reach networks outside the local network.
+
+DNS translates domain names into IP addresses.
+
+Ports identify specific services running on a server.
+
+Common ports:
+- 22 SSH
+- 53 DNS
+- 80 HTTP
+- 443 HTTPS
+
+Basic troubleshooting idea:
+- If IP ping works but domain ping fails, suspect DNS.
+- If DNS works but HTTP fails, suspect service, port, firewall, TLS or application issue.
+- If no network works, check IP address, route, gateway and connectivity.

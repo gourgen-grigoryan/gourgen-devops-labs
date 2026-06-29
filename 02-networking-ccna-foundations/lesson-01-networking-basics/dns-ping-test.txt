@@ -1,0 +1,9 @@
+PING github.com (140.82.121.4) 56(84) bytes of data.
+64 bytes from lb-140-82-121-4-fra.github.com (140.82.121.4): icmp_seq=1 ttl=52 time=60.7 ms
+64 bytes from lb-140-82-121-4-fra.github.com (140.82.121.4): icmp_seq=2 ttl=52 time=60.9 ms
+64 bytes from lb-140-82-121-4-fra.github.com (140.82.121.4): icmp_seq=3 ttl=52 time=60.9 ms
+64 bytes from lb-140-82-121-4-fra.github.com (140.82.121.4): icmp_seq=4 ttl=52 time=61.0 ms
+
+--- github.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 60.656/60.888/61.022/0.138 ms

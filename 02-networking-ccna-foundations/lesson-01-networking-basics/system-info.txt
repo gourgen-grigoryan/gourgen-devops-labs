@@ -1,0 +1,8 @@
+Hostname:
+DESKTOP-LTJUSR0
+
+Current user:
+phantom
+
+Current date:
+Mon Jun 29 03:00:09 +04 2026

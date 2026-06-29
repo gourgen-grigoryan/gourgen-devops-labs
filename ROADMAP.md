@@ -54,9 +54,9 @@ Every lesson is documented in two versions:
 | Item | Current Value |
 |---|---|
 | 🎯 Current Phase | **02 — Networking with CCNA-Level Foundations** |
-| 📘 Current Lesson | **Lesson 01 — Networking Basics** |
+| 📘 Current Lesson | **Lesson 02 — IP Addressing** |
 | 🧪 Current Lesson Status | **Planned** |
-| ✅ Recently Completed | **Lesson 12 — Linux Review Lab** |
+| ✅ Recently Completed | **Lesson 01 — Networking Basics** |
 | 🐧 Completed Major Phase | **Phase 01 — Linux Fundamentals** |
 | 🗂️ Roadmap Source of Truth | `ROADMAP.md` |
 | 🌍 Documentation Style | English portfolio notes + Armenian explanation notes |
@@ -70,7 +70,7 @@ Every lesson is documented in two versions:
 |---|---:|---|
 | Workspace Setup | `██████████` 100% | ✅ Completed |
 | Linux Fundamentals | `██████████` 100% | ✅ Completed |
-| Networking Foundations | `░░░░░░░░░░` 0% | 🟡 In Progress |
+| Networking Foundations | `█░░░░░░░░░` 14% | 🟡 In Progress |
 | Remaining DevOps Roadmap | `░░░░░░░░░░` Planned | ⚪ Planned |
 
 ---
@@ -266,7 +266,7 @@ filesystem + paths + files + logs + search + permissions + users + processes + p
 
 | # | Lesson | Status | Topics |
 |---:|---|---|---|
-| 01 | Networking Basics | ⚪ Planned | network concept, LAN, WAN, client/server, IP, gateway, DNS, ports |
+| 01 | Networking Basics | ✅ Completed | network concept, LAN, WAN, client/server, IP, gateway, DNS, ports |
 | 02 | IP Addressing | ⚪ Planned | IPv4, private/public IP, subnet mask, CIDR, gateway, loopback |
 | 03 | DNS Basics | ⚪ Planned | domain names, A, CNAME, MX, TXT, `nslookup`, `dig` |
 | 04 | Ports and Protocols | ⚪ Planned | TCP, UDP, HTTP, HTTPS, SSH, DNS, common ports |
@@ -577,7 +577,8 @@ nothing to commit, working tree clean
 | 10 | Linux Services Basics | ✅ Completed |
 | 11 | Environment Variables | ✅ Completed |
 | 12 | Linux Review Lab | ✅ Completed |
-| 02.01 | Networking Basics | ⚪ Planned |
+| 02.01 | Networking Basics | ✅ Completed |
+| 02.02 | IP Addressing | ⚪ Planned |
 
 ---
 

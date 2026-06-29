@@ -17,7 +17,7 @@
 
 <br />
 
-<strong>Linux → Networking → Git → Bash → Databases → Nginx/systemd → Docker → CI/CD → Cloud → Terraform → Monitoring/Security → Kubernetes</strong>
+<strong>Linux → Networking → Git → Bash → Databases → Nginx/systemd → Virtualization → Docker → CI/CD → Cloud → Terraform → Monitoring/Security → Kubernetes</strong>
 
 </div>
 
@@ -38,9 +38,9 @@ This is not only a learning archive. It is designed to become a professional Dev
 | Item | Current Value |
 |---|---|
 | 🎯 Current Phase | **02 — Networking with CCNA-Level Foundations** |
-| 📘 Current Lesson | **Lesson 01 — Networking Basics** |
+| 📘 Current Lesson | **Lesson 02 — IP Addressing** |
 | 🧪 Current Lesson Status | **Planned** |
-| ✅ Recently Completed | **Phase 01 — Linux Fundamentals** |
+| ✅ Recently Completed | **Lesson 01 — Networking Basics** |
 | 🐧 Completed Major Lab | **Lesson 12 — Linux Review Lab** |
 | 🗺️ Full Roadmap | [`ROADMAP.md`](./ROADMAP.md) |
 | 🌍 Documentation Style | English portfolio notes + Armenian learning notes |
@@ -54,7 +54,7 @@ This is not only a learning archive. It is designed to become a professional Dev
 |---|---:|---|
 | Local DevOps Workspace | `██████████` 100% | ✅ Completed |
 | Linux Fundamentals | `██████████` 100% | ✅ Completed |
-| Networking Foundations | `░░░░░░░░░░` 0% | 🟡 Current Phase |
+| Networking Foundations | `█░░░░░░░░░` 14% | 🟡 Current Phase |
 | Full DevOps Roadmap | `██░░░░░░░░` Building | 🚀 In Progress |
 
 ---
@@ -90,13 +90,14 @@ This lab connects all Linux fundamentals into one practical DevOps-style workflo
 | 04 | [`Bash Scripting`](./04-bash-scripting) | ⚪ Planned | Automation scripts and reusable shell tools |
 | 05 | [`Database Fundamentals for DevOps`](./05-database-fundamentals) | ⚪ Planned | PostgreSQL setup, permissions, backup/restore |
 | 06 | [`Nginx and systemd`](./06-nginx-systemd) | ⚪ Planned | Web server, reverse proxy, Linux services |
-| 07 | [`Docker`](./07-docker) | ⚪ Planned | Containerized application stack |
-| 08 | [`CI/CD Pipelines and GitOps`](./08-github-actions-cicd) | ⚪ Planned | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD |
-| 09 | [`Cloud Infrastructure`](./09-cloud) | ⚪ Planned | VM deployment, SSH, firewall, Nginx, SSL |
-| 10 | [`Terraform`](./10-terraform) | ⚪ Planned | Infrastructure as Code and safe provisioning |
-| 11 | [`Monitoring, Logging and Security`](./11-monitoring-security) | ⚪ Planned | Metrics, dashboards, alerts, hardening |
-| 12 | [`Kubernetes`](./12-kubernetes) | ⚪ Planned | Deployments, services, config, troubleshooting |
-| 13 | [`Professional Portfolio`](./13-portfolio) | ⚪ Planned | Documentation site, diagrams, resume/GitHub presentation |
+| 07 | [`Virtualization and Virtual Machines`](./07-virtualization) | ⚪ Planned | Hypervisors, Proxmox, VMs, networking, snapshots |
+| 08 | [`Docker`](./08-docker) | ⚪ Planned | Containerized application stack |
+| 09 | [`CI/CD Pipelines and GitOps`](./09-cicd-gitops) | ⚪ Planned | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD |
+| 10 | [`Cloud Infrastructure`](./10-cloud-infrastructure) | ⚪ Planned | VM deployment, SSH, firewall, Nginx, SSL |
+| 11 | [`Terraform`](./11-terraform) | ⚪ Planned | Infrastructure as Code and safe provisioning |
+| 12 | [`Monitoring, Logging and Security`](./12-monitoring-logging-security) | ⚪ Planned | Metrics, dashboards, alerts, hardening |
+| 13 | [`Kubernetes`](./13-kubernetes) | ⚪ Planned | Deployments, services, config, troubleshooting |
+| 14 | [`Professional Portfolio`](./14-professional-portfolio) | ⚪ Planned | Documentation site, diagrams, resume/GitHub presentation |
 
 ---
 
@@ -115,6 +116,7 @@ Core Engineering
   └── Nginx and systemd
 
 Platform and Delivery
+  ├── Virtualization and virtual machines
   ├── Docker
   ├── CI/CD pipelines and GitOps
   ├── Cloud infrastructure
@@ -135,11 +137,12 @@ Production Operations
 | 01 | Linux Server Administration Lab | users, groups, permissions, logs, services, monitoring basics |
 | 02 | Networking Troubleshooting Lab | DNS, ports, curl, ping, firewall and routing basics |
 | 03 | PostgreSQL DevOps Lab | database setup, users, permissions, backup and restore |
-| 04 | Dockerized Application Stack | app container, database container, Nginx and Docker Compose |
-| 05 | CI/CD Pipeline Lab | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD and GitOps concepts |
-| 06 | Cloud VM Deployment Lab | VM, SSH, firewall, Nginx, systemd, SSL and deployment validation |
-| 07 | Terraform Infrastructure Lab | provider, resources, variables, outputs and safe destroy |
-| 08 | Monitoring and Security Stack | Prometheus, Node Exporter, Grafana, Uptime Kuma, alerts and hardening |
+| 04 | Virtualization and VM Lab | VirtualBox/VMware/Hyper-V/Proxmox basics, Linux VM, snapshots, networking |
+| 05 | Dockerized Application Stack | app container, database container, Nginx and Docker Compose |
+| 06 | CI/CD Pipeline Lab | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD and GitOps concepts |
+| 07 | Cloud VM Deployment Lab | VM, SSH, firewall, Nginx, systemd, SSL and deployment validation |
+| 08 | Terraform Infrastructure Lab | provider, resources, variables, outputs and safe destroy |
+| 09 | Monitoring and Security Stack | Prometheus, Node Exporter, Grafana, Uptime Kuma, Netdata, Zabbix, alerts and hardening |
 
 ---
 
@@ -153,6 +156,7 @@ Production Operations
 | Automation | Bash scripting, reusable scripts, validation workflows |
 | Databases | SQL, PostgreSQL, roles, permissions, backup/restore |
 | Web and Services | Nginx, reverse proxy, systemd, journalctl |
+| Virtualization | VirtualBox, VMware, Hyper-V, Proxmox, VMs, snapshots, templates |
 | Containers | Docker, Dockerfile, Docker Compose |
 | CI/CD and GitOps | GitHub Actions, GitLab CI/CD, Jenkins, Argo CD |
 | Cloud | VMs, SSH, firewall rules, deployment, cost safety |
@@ -243,13 +247,14 @@ devops-labs/
 ├── 04-bash-scripting/
 ├── 05-database-fundamentals/
 ├── 06-nginx-systemd/
-├── 07-docker/
-├── 08-github-actions-cicd/
-├── 09-cloud/
-├── 10-terraform/
-├── 11-monitoring-security/
-├── 12-kubernetes/
-└── 13-portfolio/
+├── 07-virtualization/
+├── 08-docker/
+├── 09-cicd-gitops/
+├── 10-cloud-infrastructure/
+├── 11-terraform/
+├── 12-monitoring-logging-security/
+├── 13-kubernetes/
+└── 14-professional-portfolio/
 ```
 
 ---
@@ -271,7 +276,7 @@ devops-labs/
 
 ```text
 Phase 02 — Networking with CCNA-Level Foundations
-Current lesson: Lesson 01 — Networking Basics
+Current lesson: Lesson 02 — IP Addressing
 ```
 
 This next phase will build the networking foundation needed for cloud servers, Docker networking, Kubernetes, DNS, firewalls, SSH, and production troubleshooting.
@@ -284,7 +289,7 @@ This next phase will build the networking foundation needed for cloud servers, D
 
 **Learn deeply. Practice hands-on. Document professionally. Build real portfolio projects.**
 
-`Linux` → `Networking` → `Git` → `Bash` → `Databases` → `Nginx` → `Docker` → `CI/CD` → `Cloud` → `Terraform` → `Monitoring` → `Kubernetes`
+`Linux` → `Networking` → `Git` → `Bash` → `Databases` → `Nginx` → `Virtualization` → `Docker` → `CI/CD` → `Cloud` → `Terraform` → `Monitoring` → `Kubernetes`
 
 <br />
 
