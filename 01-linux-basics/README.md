@@ -49,18 +49,18 @@ By completing this Linux Fundamentals module, I practiced how to:
 
 | # | Lesson | Focus | Documentation |
 |---:|---|---|---|
-| 01 | Linux File System | Linux directory structure and core filesystem concepts | [notes.md](./lesson-01-filesystem/notes.md) / [notes.hy.md](./lesson-01-filesystem/notes.hy.md) |
-| 02 | Linux Paths | Absolute paths, relative paths, and navigation | [notes.md](./lesson-02-paths/notes.md) / [notes.hy.md](./lesson-02-paths/notes.hy.md) |
-| 03 | File Operations | Creating, copying, moving, reading, and organizing files | [notes.md](./lesson-03-file-operations/notes.md) / [notes.hy.md](./lesson-03-file-operations/notes.hy.md) |
-| 04 | Log Reading Basics | Reading logs with `cat`, `head`, `tail`, and related tools | [notes.md](./lesson-04-log-reading/notes.md) / [notes.hy.md](./lesson-04-log-reading/notes.hy.md) |
-| 05 | Search and Filtering | Finding useful information with `grep`, `find`, and filters | [notes.md](./lesson-05-search-filtering/notes.md) / [notes.hy.md](./lesson-05-search-filtering/notes.hy.md) |
-| 06 | Permissions and Ownership | File permissions, executable scripts, and secure files | [notes.md](./lesson-06-permissions-ownership/notes.md) / [notes.hy.md](./lesson-06-permissions-ownership/notes.hy.md) |
-| 07 | Users, Groups and sudo | User identity, groups, sudo access, and account inspection | [notes.md](./lesson-07-users-groups-sudo/notes.md) / [notes.hy.md](./lesson-07-users-groups-sudo/notes.hy.md) |
-| 08 | Processes and System Monitoring | Process inspection, system resources, disk, memory, and uptime | [notes.md](./lesson-08-processes-monitoring/notes.md) / [notes.hy.md](./lesson-08-processes-monitoring/notes.hy.md) |
-| 09 | Package Management | `apt update`, install, remove, purge, autoremove, and upgrade simulation | [notes.md](./lesson-09-package-management/notes.md) / [notes.hy.md](./lesson-09-package-management/notes.hy.md) |
-| 10 | Linux Services Basics | `systemctl`, service status, start/stop/restart, enable/disable, and logs | [notes.md](./lesson-10-linux-services-basics/notes.md) / [notes.hy.md](./lesson-10-linux-services-basics/notes.hy.md) |
-| 11 | Environment Variables | `printenv`, `$PATH`, `export`, `unset`, `.bashrc`, and safe secrets | [notes.md](./lesson-11-environment-variables/notes.md) / [notes.hy.md](./lesson-11-environment-variables/notes.hy.md) |
-| 12 | Linux Review Lab | Full practical review of the entire Linux Fundamentals phase | [notes.md](./lesson-12-linux-review-lab/notes.md) / [notes.hy.md](./lesson-12-linux-review-lab/notes.hy.md) |
+| 01 | Linux File System | Linux directory structure and core filesystem concepts | [notes.md](./lesson-01-filesystem/notes.md)<br>[notes.hy.md](./lesson-01-filesystem/notes.hy.md) |
+| 02 | Linux Paths | Absolute paths, relative paths, and navigation | [notes.md](./lesson-02-paths/notes.md)<br>[notes.hy.md](./lesson-02-paths/notes.hy.md) |
+| 03 | File Operations | Creating, copying, moving, reading, and organizing files | [notes.md](./lesson-03-file-operations/notes.md)<br>[notes.hy.md](./lesson-03-file-operations/notes.hy.md) |
+| 04 | Log Reading Basics | Reading logs with `cat`, `head`, `tail`, and related tools | [notes.md](./lesson-04-log-reading/notes.md)<br>[notes.hy.md](./lesson-04-log-reading/notes.hy.md) |
+| 05 | Search and Filtering | Finding useful information with `grep`, `find`, and filters | [notes.md](./lesson-05-search-filtering/notes.md)<br>[notes.hy.md](./lesson-05-search-filtering/notes.hy.md) |
+| 06 | Permissions and Ownership | File permissions, executable scripts, and secure files | [notes.md](./lesson-06-permissions-ownership/notes.md)<br>[notes.hy.md](./lesson-06-permissions-ownership/notes.hy.md) |
+| 07 | Users, Groups and sudo | User identity, groups, sudo access, and account inspection | [notes.md](./lesson-07-users-groups-sudo/notes.md)<br>[notes.hy.md](./lesson-07-users-groups-sudo/notes.hy.md) |
+| 08 | Processes and System Monitoring | Process inspection, system resources, disk, memory, and uptime | [notes.md](./lesson-08-processes-monitoring/notes.md)<br>[notes.hy.md](./lesson-08-processes-monitoring/notes.hy.md) |
+| 09 | Package Management | `apt update`, install, remove, purge, autoremove, and upgrade simulation | [notes.md](./lesson-09-package-management/notes.md)<br>[notes.hy.md](./lesson-09-package-management/notes.hy.md) |
+| 10 | Linux Services Basics | `systemctl`, service status, start/stop/restart, enable/disable, and logs | [notes.md](./lesson-10-linux-services-basics/notes.md)<br>[notes.hy.md](./lesson-10-linux-services-basics/notes.hy.md) |
+| 11 | Environment Variables | `printenv`, `$PATH`, `export`, `unset`, `.bashrc`, and safe secrets | [notes.md](./lesson-11-environment-variables/notes.md)<br>[notes.hy.md](./lesson-11-environment-variables/notes.hy.md) |
+| 12 | Linux Review Lab | Full practical review of the entire Linux Fundamentals phase | [notes.md](./lesson-12-linux-review-lab/notes.md)<br>[notes.hy.md](./lesson-12-linux-review-lab/notes.hy.md) |
 
 ---
 

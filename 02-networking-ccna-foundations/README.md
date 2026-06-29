@@ -45,7 +45,7 @@ By completing this module, I will practice how to:
 
 | # | Lesson | Focus | Documentation |
 |---:|---|---|---|
-| 01 | Networking Basics | network concept, LAN, WAN, client/server, IP, gateway, DNS, ports | [notes.md](./lesson-01-networking-basics/notes.md) / [notes.hy.md](./lesson-01-networking-basics/notes.hy.md) |
+| 01 | Networking Basics | network concept, LAN, WAN, client/server, IP, gateway, DNS, ports | [notes.md](./lesson-01-networking-basics/notes.md)<br>[notes.hy.md](./lesson-01-networking-basics/notes.hy.md) |
 | 02 | IP Addressing | IPv4, private/public IP, subnet mask, CIDR, gateway, loopback | Planned |
 | 03 | DNS Basics | domain names, A, CNAME, MX, TXT, `nslookup`, `dig` | Planned |
 | 04 | Ports and Protocols | TCP, UDP, HTTP, HTTPS, SSH, DNS, common ports | Planned |
