@@ -46,7 +46,7 @@ By completing this module, I will practice how to:
 | # | Lesson | Focus | Documentation |
 |---:|---|---|---|
 | 01 | Networking Basics | network concept, LAN, WAN, client/server, IP, gateway, DNS, ports | [notes.md](./lesson-01-networking-basics/notes.md)<br>[notes.hy.md](./lesson-01-networking-basics/notes.hy.md) |
-| 02 | IP Addressing | IPv4, private/public IP, subnet mask, CIDR, gateway, loopback | Planned |
+| 02 | IP Addressing | IPv4, private/public IP, subnet mask, CIDR, gateway, loopback | [notes.md](./lesson-02-ip-addressing/notes.md)<br>[notes.hy.md](./lesson-02-ip-addressing/notes.hy.md) |
 | 03 | DNS Basics | domain names, A, CNAME, MX, TXT, `nslookup`, `dig` | Planned |
 | 04 | Ports and Protocols | TCP, UDP, HTTP, HTTPS, SSH, DNS, common ports | Planned |
 | 05 | Network Troubleshooting | `ping`, `curl`, `wget`, `ss`, `netstat`, `traceroute`, `ip addr`, `ip route` | Planned |
@@ -60,6 +60,7 @@ By completing this module, I will practice how to:
 | Lesson | Status | Result |
 |---|---|---|
 | Lesson 01 — Networking Basics | ✅ Completed | Quiz passed 15/15, documentation ready |
+| Lesson 02 — IP Addressing | ✅ Completed | Quiz passed 15/15 after correction, documentation ready |
 
 ---
 
@@ -67,12 +68,12 @@ By completing this module, I will practice how to:
 
 | Category | Commands |
 |---|---|
-| System info | `hostname`, `whoami`, `date` |
-| Network interfaces | `ip addr show` |
-| Routing | `ip route` |
+| System info | `hostname`, `whoami`, `date`, `hostname -I` |
+| Network interfaces | `ip addr show`, `ip -4 addr show`, `ip addr show lo` |
+| Routing | `ip route`, `ip route \| grep default` |
 | DNS config | `cat /etc/resolv.conf` |
-| DNS lookup | `getent hosts` |
-| Connectivity | `ping` |
+| DNS lookup | `getent hosts`, `getent hosts localhost` |
+| Connectivity | `ping`, `ping -c 4 127.0.0.1`, `ping -c 4 "$GATEWAY_IP"` |
 | HTTP/HTTPS checks | `curl -I` |
 | Listening ports | `ss -tuln` |
 | Output documentation | `tee` |
@@ -85,7 +86,10 @@ By completing this module, I will practice how to:
 ```text
 02-networking-ccna-foundations/
 ├── README.md
-└── lesson-01-networking-basics/
+├── lesson-01-networking-basics/
+│   ├── notes.md
+│   └── notes.hy.md
+└── lesson-02-ip-addressing/
     ├── notes.md
     └── notes.hy.md
 ```
@@ -103,6 +107,18 @@ dns-ping-test.txt
 http-test.txt
 listening-ports.txt
 network-summary.txt
+
+# Lesson 02 lab outputs
+ipv4-addresses.txt
+hostname-ip.txt
+routing-table.txt
+default-gateway.txt
+gateway-ip.txt
+gateway-ping-test.txt
+loopback-interface.txt
+loopback-ping-test.txt
+localhost-lookup.txt
+ip-addressing-summary.txt
 ```
 
 ---
@@ -121,7 +137,7 @@ Each lesson includes two documentation files:
 ## 🚀 Next Step
 
 ```text
-Lesson 02 — IP Addressing
+Lesson 03 — DNS Basics
 ```
 
-The next lesson will explain IPv4, private/public IP addresses, subnet masks, CIDR, gateway concepts and loopback addresses.
+The next lesson will explain domain names, DNS resolution, A records, CNAME records, MX records, TXT records, `nslookup`, `dig` and DNS troubleshooting basics.

@@ -38,9 +38,9 @@ This is not only a learning archive. It is designed to become a professional Dev
 | Item | Current Value |
 |---|---|
 | 🎯 Current Phase | **02 — Networking with CCNA-Level Foundations** |
-| 📘 Current Lesson | **Lesson 02 — IP Addressing** |
+| 📘 Current Lesson | **Lesson 03 — DNS Basics** |
 | 🧪 Current Lesson Status | **Planned** |
-| ✅ Recently Completed | **Lesson 01 — Networking Basics** |
+| ✅ Recently Completed | **Lesson 02 — IP Addressing** |
 | 🐧 Completed Major Lab | **Lesson 12 — Linux Review Lab** |
 | 🗺️ Full Roadmap | [`ROADMAP.md`](./ROADMAP.md) |
 | 🌍 Documentation Style | English portfolio notes + Armenian learning notes |
@@ -54,7 +54,7 @@ This is not only a learning archive. It is designed to become a professional Dev
 |---|---:|---|
 | Local DevOps Workspace | `██████████` 100% | ✅ Completed |
 | Linux Fundamentals | `██████████` 100% | ✅ Completed |
-| Networking Foundations | `█░░░░░░░░░` 14% | 🟡 Current Phase |
+| Networking Foundations | `███░░░░░░░` 29% | 🟡 Current Phase |
 | Full DevOps Roadmap | `██░░░░░░░░` Building | 🚀 In Progress |
 
 ---
@@ -276,10 +276,10 @@ devops-labs/
 
 ```text
 Phase 02 — Networking with CCNA-Level Foundations
-Current lesson: Lesson 02 — IP Addressing
+Current lesson: Lesson 03 — DNS Basics
 ```
 
-This next phase will build the networking foundation needed for cloud servers, Docker networking, Kubernetes, DNS, firewalls, SSH, and production troubleshooting.
+The next lesson will build the DNS foundation needed for domains, records, name resolution, web hosting, email records and production troubleshooting.
 
 ---
 

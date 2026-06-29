@@ -1,0 +1,34 @@
+# IP Addressing Summary
+
+An IP address identifies a device on a network.
+
+IPv4 addresses have four octets, for example:
+192.168.1.25
+
+Each octet can be from 0 to 255.
+
+Private IP ranges:
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+
+Public IP addresses are used on the Internet.
+
+A subnet mask separates the network part and host part of an IP address.
+
+CIDR is a shorter way to write subnet information, for example:
+192.168.1.25/24
+
+/24 usually means:
+- subnet mask 255.255.255.0
+- network part: first three octets
+- host part: last octet
+
+0.0.0.0/0 means all IPv4 addresses.
+
+A gateway is the exit point used to reach other networks.
+
+Loopback address:
+127.0.0.1
+
+localhost points to the local machine.
